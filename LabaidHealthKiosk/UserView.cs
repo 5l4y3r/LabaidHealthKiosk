@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace LabaidHealthKiosk
 {
-    public partial class Form1 : Form
+    public partial class UserView : Form
     {
-        public Form1()
+        public UserView()
         {
             InitializeComponent();
+            
         }
+
+        private void UserView_Load(object sender, EventArgs e)
+        {
+            
+        }
+        
+
     }
 }
