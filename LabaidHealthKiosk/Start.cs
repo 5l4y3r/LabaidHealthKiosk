@@ -38,9 +38,13 @@ namespace LabaidHealthKiosk
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            Hide();
-            AdminPanel a = new AdminPanel();
-            a.Show();
+            if (UserNameTxt.Text == @"Admin" && PasswordTxt.Text == @"1234")
+            {
+
+                Hide();
+                AdminPanel a = new AdminPanel();
+                a.Show();
+            }
         }
     }
 }

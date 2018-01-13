@@ -93,6 +93,7 @@
             this.Controls.Add(this.ManageAdBtn);
             this.Name = "AdminPanel";
             this.Text = "AdminPanel";
+            this.Load += new System.EventHandler(this.AdminPanel_Load);
             this.ResumeLayout(false);
 
         }

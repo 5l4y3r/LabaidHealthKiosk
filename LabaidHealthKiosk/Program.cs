@@ -18,7 +18,7 @@ namespace LabaidHealthKiosk
            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MaterialsForm());
+            Application.Run(new Start());
         }
     }
 }
