@@ -12,7 +12,7 @@ namespace EntityClasses
 
         public int? Id { get; set; }
         public string UserName { get; set; }
-        public string ImageAdvertiseLink { get; set; }
-        public string VIdeoAdvertiseLink { get; set; }
+        public string AdType { get; set; }
+        public string AdLink { get; set; }
     }
 }
