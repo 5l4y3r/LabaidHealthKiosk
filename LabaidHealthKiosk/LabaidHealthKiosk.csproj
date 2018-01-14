@@ -49,6 +49,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
@@ -129,6 +130,16 @@
     <None Include="Resources\icon_back.png" />
     <None Include="Resources\Button Next.ico" />
     <None Include="Resources\240_F_32348946_6LyWrw8sTY2hwuIRC85khoCh4nva4ir1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{e15cd2a8-b860-476b-9d56-29cec227169f}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityClasses\EntityClasses.csproj">
+      <Project>{b5a227f3-8cff-4b53-8ca5-648c45f0daf1}</Project>
+      <Name>EntityClasses</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

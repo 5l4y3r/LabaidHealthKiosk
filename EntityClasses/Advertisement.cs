@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace EntityClasses
 {
-    class Advertisement
+    public class Advertisement
     {
+        public Advertisement() { }
+
+        public int? Id { get; set; }
+        public string UserName { get; set; }
+        public string ImageAdvertiseLink { get; set; }
+        public string VIdeoAdvertiseLink { get; set; }
     }
 }
