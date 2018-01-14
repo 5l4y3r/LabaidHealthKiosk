@@ -69,6 +69,22 @@
     <Compile Include="AdminPanel.Designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="LabaidHealthKioskDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LabaidHealthKioskDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabaidHealthKioskDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManageQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageQuestion.Designer.cs">
+      <DependentUpon>ManageQuestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaterialsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +108,9 @@
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageQuestion.resx">
+      <DependentUpon>ManageQuestion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaterialsForm.resx">
       <DependentUpon>MaterialsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +130,28 @@
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="LabaidHealthKioskDataSet.xsc">
+      <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LabaidHealthKioskDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LabaidHealthKioskDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LabaidHealthKioskDataSet.xss">
+      <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LabaidHealthKioskDataSet1.xsc">
+      <DependentUpon>LabaidHealthKioskDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LabaidHealthKioskDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LabaidHealthKioskDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LabaidHealthKioskDataSet1.xss">
+      <DependentUpon>LabaidHealthKioskDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
