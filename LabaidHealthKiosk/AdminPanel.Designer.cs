@@ -57,6 +57,7 @@
             this.ManageQBtn.TabIndex = 1;
             this.ManageQBtn.Text = "Manage Questionaries";
             this.ManageQBtn.UseVisualStyleBackColor = false;
+            this.ManageQBtn.Click += new System.EventHandler(this.ManageQBtn_Click);
             // 
             // MangeReportBtn
             // 

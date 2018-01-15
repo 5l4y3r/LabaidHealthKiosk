@@ -21,5 +21,11 @@ namespace LabaidHealthKiosk
         {
 
         }
+
+        private void ManageQBtn_Click(object sender, EventArgs e)
+        {
+            ManageQuestion mq = new ManageQuestion();
+            mq.Show();
+        }
     }
 }

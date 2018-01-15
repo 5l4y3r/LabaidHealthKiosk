@@ -25,5 +25,13 @@ namespace LabaidHealthKiosk
             this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
 
         }
+
+        private void AddQGroupBtn_Click(object sender, EventArgs e)
+        {
+            string s = questionTxt.Text;
+
+            BusinessLayer.QuestionClass.AddQuestion(s,s);
+            MessageBox.Show("Q added");
+        }
     }
 }

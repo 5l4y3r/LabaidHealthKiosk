@@ -43,7 +43,7 @@
             this.quesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AddQBtn = new System.Windows.Forms.Button();
             this.DeleteBtn = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.questionTxt = new System.Windows.Forms.TextBox();
             this.AddQGroupBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.labaidHealthKioskDataSet)).BeginInit();
@@ -156,12 +156,12 @@
             this.DeleteBtn.Text = "Delete Question";
             this.DeleteBtn.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // questionTxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(42, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(405, 20);
-            this.textBox1.TabIndex = 6;
+            this.questionTxt.Location = new System.Drawing.Point(42, 53);
+            this.questionTxt.Name = "questionTxt";
+            this.questionTxt.Size = new System.Drawing.Size(405, 20);
+            this.questionTxt.TabIndex = 6;
             // 
             // AddQGroupBtn
             // 
@@ -173,6 +173,7 @@
             this.AddQGroupBtn.TabIndex = 7;
             this.AddQGroupBtn.Text = "Add New Question Group";
             this.AddQGroupBtn.UseVisualStyleBackColor = false;
+            this.AddQGroupBtn.Click += new System.EventHandler(this.AddQGroupBtn_Click);
             // 
             // label3
             // 
@@ -192,7 +193,7 @@
             this.ClientSize = new System.Drawing.Size(734, 513);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.AddQGroupBtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.questionTxt);
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.AddQBtn);
             this.Controls.Add(this.dataGridView1);
@@ -227,7 +228,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn quesDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button AddQBtn;
         private System.Windows.Forms.Button DeleteBtn;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox questionTxt;
         private System.Windows.Forms.Button AddQGroupBtn;
         private System.Windows.Forms.Label label3;
     }

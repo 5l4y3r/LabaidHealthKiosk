@@ -9,7 +9,7 @@ namespace EntityClasses
 {
    public class ContextDb : DbContext
     {
-        public ContextDb(): base("name=LabaidHKDb")
+        public ContextDb() : base("Name=LabaidHealthKioskDb")
         {
         }
         public DbSet<UserInfo> UserInfos { get; set; }
