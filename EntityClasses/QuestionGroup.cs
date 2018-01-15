@@ -15,6 +15,6 @@ namespace EntityClasses
         [DefaultValue("NULL")]
         public string GroupName { get; set; }
 
-        public ICollection<Question> Questions { get; set; }
+        
     }
 }

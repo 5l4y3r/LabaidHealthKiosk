@@ -17,10 +17,8 @@ namespace EntityClasses
         [DefaultValue("NULL")]
         public string Ques { get; set; }
 
-        public int QuestionGroupRefId { get; set; }
-
-        [ForeignKey("QuestionGroupRefId")]
-        public QuestionGroup QuestionGroup { get; set; }
+        [DefaultValue("NULL")]
+        public string QuestionGroup { get; set; }
 
 
     }

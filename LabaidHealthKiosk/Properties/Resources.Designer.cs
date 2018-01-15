@@ -73,9 +73,69 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9176434 {
+            get {
+                object obj = ResourceManager.GetObject("9176434", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_clipart_animated_gif_3 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-clipart-animated-gif-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_curved_2_right {
+            get {
+                object obj = ResourceManager.GetObject("arrow_curved_2_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_curved_2_right1 {
+            get {
+                object obj = ResourceManager.GetObject("arrow_curved_2_right1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Button_Next {
             get {
                 object obj = ResourceManager.GetObject("Button Next", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Complain_512 {
+            get {
+                object obj = ResourceManager.GetObject("Complain-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap complainking {
+            get {
+                object obj = ResourceManager.GetObject("complainking", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +153,89 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doctors_posing_in_front_of_hospital_1214_51 {
+            get {
+                object obj = ResourceManager.GetObject("doctors-posing-in-front-of-hospital_1214-51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctors_posing_in_front_of_hospital_1214_511 {
+            get {
+                object obj = ResourceManager.GetObject("doctors-posing-in-front-of-hospital_1214-511", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_com_gif_maker {
+            get {
+                object obj = ResourceManager.GetObject("ezgif.com-gif-maker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap forward_512 {
+            get {
+                object obj = ResourceManager.GetObject("forward-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap go_right {
+            get {
+                object obj = ResourceManager.GetObject("go_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hospital_building_black_male_doctor_cartoon_front_eps_file_available_64970279 {
+            get {
+                object obj = ResourceManager.GetObject("hospital-building-black-male-doctor-cartoon-front-eps-file-available-64970279", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_back {
             get {
                 object obj = ResourceManager.GetObject("icon_back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Is_your_customer_feedback_languishing_in_excel_part_2_5_300x300 {
+            get {
+                object obj = ResourceManager.GetObject("Is-your-customer-feedback-languishing-in-excel-part-2_5-300x300", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UnlinedSoggyHippopotamus_max_1mb {
+            get {
+                object obj = ResourceManager.GetObject("UnlinedSoggyHippopotamus-max-1mb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

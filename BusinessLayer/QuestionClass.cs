@@ -10,19 +10,31 @@ namespace BusinessLayer
 {
     public class QuestionClass
     {
+        public static void AddQuestionGroup( string qname)
+        {
+            var context = new ContextDb();
+
+            context.QuestionGroups.Add(new QuestionGroup()
+            {
+                
+                GroupName = qname
+            });
+            context.SaveChanges();
+           
+        }
         public static void AddQuestion(string qgroup, string qname)
         {
             var context = new ContextDb();
 
             context.Questions.Add(new Question()
             {
-                
-                Ques = qname
+                Ques = qname,
+                QuestionGroup = qgroup
             });
             context.SaveChanges();
-           
+
         }
 
-     
+
     }
 }

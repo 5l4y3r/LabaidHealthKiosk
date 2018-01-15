@@ -20,17 +20,17 @@ namespace LabaidHealthKiosk {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("LabaidHealthKioskDataSet1")]
+    [global::System.Xml.Serialization.XmlRootAttribute("QuestionGroupDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class LabaidHealthKioskDataSet1 : global::System.Data.DataSet {
+    public partial class QuestionGroupDataSet : global::System.Data.DataSet {
         
-        private QuestionsDataTable tableQuestions;
+        private QuestionGroupsDataTable tableQuestionGroups;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public LabaidHealthKioskDataSet1() {
+        public QuestionGroupDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace LabaidHealthKiosk {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        protected LabaidHealthKioskDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected QuestionGroupDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace LabaidHealthKiosk {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["Questions"] != null)) {
-                    base.Tables.Add(new QuestionsDataTable(ds.Tables["Questions"]));
+                if ((ds.Tables["QuestionGroups"] != null)) {
+                    base.Tables.Add(new QuestionGroupsDataTable(ds.Tables["QuestionGroups"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace LabaidHealthKiosk {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public QuestionsDataTable Questions {
+        public QuestionGroupsDataTable QuestionGroups {
             get {
-                return this.tableQuestions;
+                return this.tableQuestionGroups;
             }
         }
         
@@ -127,7 +127,7 @@ namespace LabaidHealthKiosk {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            LabaidHealthKioskDataSet1 cln = ((LabaidHealthKioskDataSet1)(base.Clone()));
+            QuestionGroupDataSet cln = ((QuestionGroupDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace LabaidHealthKiosk {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["Questions"] != null)) {
-                    base.Tables.Add(new QuestionsDataTable(ds.Tables["Questions"]));
+                if ((ds.Tables["QuestionGroups"] != null)) {
+                    base.Tables.Add(new QuestionGroupsDataTable(ds.Tables["QuestionGroups"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace LabaidHealthKiosk {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableQuestions = ((QuestionsDataTable)(base.Tables["Questions"]));
+            this.tableQuestionGroups = ((QuestionGroupsDataTable)(base.Tables["QuestionGroups"]));
             if ((initTable == true)) {
-                if ((this.tableQuestions != null)) {
-                    this.tableQuestions.InitVars();
+                if ((this.tableQuestionGroups != null)) {
+                    this.tableQuestionGroups.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace LabaidHealthKiosk {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "LabaidHealthKioskDataSet1";
+            this.DataSetName = "QuestionGroupDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/LabaidHealthKioskDataSet1.xsd";
+            this.Namespace = "http://tempuri.org/QuestionGroupDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableQuestions = new QuestionsDataTable();
-            base.Tables.Add(this.tableQuestions);
+            this.tableQuestionGroups = new QuestionGroupsDataTable();
+            base.Tables.Add(this.tableQuestionGroups);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private bool ShouldSerializeQuestions() {
+        private bool ShouldSerializeQuestionGroups() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace LabaidHealthKiosk {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            LabaidHealthKioskDataSet1 ds = new LabaidHealthKioskDataSet1();
+            QuestionGroupDataSet ds = new QuestionGroupDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,21 +270,21 @@ namespace LabaidHealthKiosk {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public delegate void QuestionsRowChangeEventHandler(object sender, QuestionsRowChangeEvent e);
+        public delegate void QuestionGroupsRowChangeEventHandler(object sender, QuestionGroupsRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class QuestionsDataTable : global::System.Data.TypedTableBase<QuestionsRow> {
+        public partial class QuestionGroupsDataTable : global::System.Data.TypedTableBase<QuestionGroupsRow> {
             
-            private global::System.Data.DataColumn columnQues;
+            private global::System.Data.DataColumn columnGroupName;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsDataTable() {
-                this.TableName = "Questions";
+            public QuestionGroupsDataTable() {
+                this.TableName = "QuestionGroups";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -292,7 +292,7 @@ namespace LabaidHealthKiosk {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal QuestionsDataTable(global::System.Data.DataTable table) {
+            internal QuestionGroupsDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -309,16 +309,16 @@ namespace LabaidHealthKiosk {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            protected QuestionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected QuestionGroupsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn QuesColumn {
+            public global::System.Data.DataColumn GroupNameColumn {
                 get {
-                    return this.columnQues;
+                    return this.columnGroupName;
                 }
             }
             
@@ -333,45 +333,45 @@ namespace LabaidHealthKiosk {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsRow this[int index] {
+            public QuestionGroupsRow this[int index] {
                 get {
-                    return ((QuestionsRow)(this.Rows[index]));
+                    return ((QuestionGroupsRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event QuestionsRowChangeEventHandler QuestionsRowChanging;
+            public event QuestionGroupsRowChangeEventHandler QuestionGroupsRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event QuestionsRowChangeEventHandler QuestionsRowChanged;
+            public event QuestionGroupsRowChangeEventHandler QuestionGroupsRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event QuestionsRowChangeEventHandler QuestionsRowDeleting;
+            public event QuestionGroupsRowChangeEventHandler QuestionGroupsRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event QuestionsRowChangeEventHandler QuestionsRowDeleted;
+            public event QuestionGroupsRowChangeEventHandler QuestionGroupsRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void AddQuestionsRow(QuestionsRow row) {
+            public void AddQuestionGroupsRow(QuestionGroupsRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsRow AddQuestionsRow(string Ques) {
-                QuestionsRow rowQuestionsRow = ((QuestionsRow)(this.NewRow()));
+            public QuestionGroupsRow AddQuestionGroupsRow(string GroupName) {
+                QuestionGroupsRow rowQuestionGroupsRow = ((QuestionGroupsRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        Ques};
-                rowQuestionsRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowQuestionsRow);
-                return rowQuestionsRow;
+                        GroupName};
+                rowQuestionGroupsRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowQuestionGroupsRow);
+                return rowQuestionGroupsRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                QuestionsDataTable cln = ((QuestionsDataTable)(base.Clone()));
+                QuestionGroupsDataTable cln = ((QuestionGroupsDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -379,47 +379,47 @@ namespace LabaidHealthKiosk {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new QuestionsDataTable();
+                return new QuestionGroupsDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnQues = base.Columns["Ques"];
+                this.columnGroupName = base.Columns["GroupName"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnQues = new global::System.Data.DataColumn("Ques", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnQues);
-                this.columnQues.MaxLength = 2147483647;
+                this.columnGroupName = new global::System.Data.DataColumn("GroupName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnGroupName);
+                this.columnGroupName.MaxLength = 2147483647;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsRow NewQuestionsRow() {
-                return ((QuestionsRow)(this.NewRow()));
+            public QuestionGroupsRow NewQuestionGroupsRow() {
+                return ((QuestionGroupsRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new QuestionsRow(builder);
+                return new QuestionGroupsRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(QuestionsRow);
+                return typeof(QuestionGroupsRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.QuestionsRowChanged != null)) {
-                    this.QuestionsRowChanged(this, new QuestionsRowChangeEvent(((QuestionsRow)(e.Row)), e.Action));
+                if ((this.QuestionGroupsRowChanged != null)) {
+                    this.QuestionGroupsRowChanged(this, new QuestionGroupsRowChangeEvent(((QuestionGroupsRow)(e.Row)), e.Action));
                 }
             }
             
@@ -427,8 +427,8 @@ namespace LabaidHealthKiosk {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.QuestionsRowChanging != null)) {
-                    this.QuestionsRowChanging(this, new QuestionsRowChangeEvent(((QuestionsRow)(e.Row)), e.Action));
+                if ((this.QuestionGroupsRowChanging != null)) {
+                    this.QuestionGroupsRowChanging(this, new QuestionGroupsRowChangeEvent(((QuestionGroupsRow)(e.Row)), e.Action));
                 }
             }
             
@@ -436,8 +436,8 @@ namespace LabaidHealthKiosk {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.QuestionsRowDeleted != null)) {
-                    this.QuestionsRowDeleted(this, new QuestionsRowChangeEvent(((QuestionsRow)(e.Row)), e.Action));
+                if ((this.QuestionGroupsRowDeleted != null)) {
+                    this.QuestionGroupsRowDeleted(this, new QuestionGroupsRowChangeEvent(((QuestionGroupsRow)(e.Row)), e.Action));
                 }
             }
             
@@ -445,14 +445,14 @@ namespace LabaidHealthKiosk {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.QuestionsRowDeleting != null)) {
-                    this.QuestionsRowDeleting(this, new QuestionsRowChangeEvent(((QuestionsRow)(e.Row)), e.Action));
+                if ((this.QuestionGroupsRowDeleting != null)) {
+                    this.QuestionGroupsRowDeleting(this, new QuestionGroupsRowChangeEvent(((QuestionGroupsRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void RemoveQuestionsRow(QuestionsRow row) {
+            public void RemoveQuestionGroupsRow(QuestionGroupsRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -461,7 +461,7 @@ namespace LabaidHealthKiosk {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                LabaidHealthKioskDataSet1 ds = new LabaidHealthKioskDataSet1();
+                QuestionGroupDataSet ds = new QuestionGroupDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -479,7 +479,7 @@ namespace LabaidHealthKiosk {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "QuestionsDataTable";
+                attribute2.FixedValue = "QuestionGroupsDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -523,43 +523,43 @@ namespace LabaidHealthKiosk {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class QuestionsRow : global::System.Data.DataRow {
+        public partial class QuestionGroupsRow : global::System.Data.DataRow {
             
-            private QuestionsDataTable tableQuestions;
+            private QuestionGroupsDataTable tableQuestionGroups;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal QuestionsRow(global::System.Data.DataRowBuilder rb) : 
+            internal QuestionGroupsRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableQuestions = ((QuestionsDataTable)(this.Table));
+                this.tableQuestionGroups = ((QuestionGroupsDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Ques {
+            public string GroupName {
                 get {
                     try {
-                        return ((string)(this[this.tableQuestions.QuesColumn]));
+                        return ((string)(this[this.tableQuestionGroups.GroupNameColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Ques\' in table \'Questions\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'GroupName\' in table \'QuestionGroups\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableQuestions.QuesColumn] = value;
+                    this[this.tableQuestionGroups.GroupNameColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsQuesNull() {
-                return this.IsNull(this.tableQuestions.QuesColumn);
+            public bool IsGroupNameNull() {
+                return this.IsNull(this.tableQuestionGroups.GroupNameColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetQuesNull() {
-                this[this.tableQuestions.QuesColumn] = global::System.Convert.DBNull;
+            public void SetGroupNameNull() {
+                this[this.tableQuestionGroups.GroupNameColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -567,22 +567,22 @@ namespace LabaidHealthKiosk {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public class QuestionsRowChangeEvent : global::System.EventArgs {
+        public class QuestionGroupsRowChangeEvent : global::System.EventArgs {
             
-            private QuestionsRow eventRow;
+            private QuestionGroupsRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsRowChangeEvent(QuestionsRow row, global::System.Data.DataRowAction action) {
+            public QuestionGroupsRowChangeEvent(QuestionGroupsRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public QuestionsRow Row {
+            public QuestionGroupsRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -598,7 +598,7 @@ namespace LabaidHealthKiosk {
         }
     }
 }
-namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
+namespace LabaidHealthKiosk.QuestionGroupDataSetTableAdapters {
     
     
     /// <summary>
@@ -610,7 +610,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class QuestionsTableAdapter : global::System.ComponentModel.Component {
+    public partial class QuestionGroupsTableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -624,7 +624,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public QuestionsTableAdapter() {
+        public QuestionGroupsTableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -721,14 +721,14 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "Questions";
-            tableMapping.ColumnMappings.Add("Ques", "Ques");
+            tableMapping.DataSetTable = "QuestionGroups";
+            tableMapping.ColumnMappings.Add("GroupName", "GroupName");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Questions] ([Ques]) VALUES (@Ques)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[QuestionGroups] ([GroupName]) VALUES (@GroupName)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Ques", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Ques", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@GroupName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "GroupName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -744,7 +744,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT Ques FROM dbo.Questions";
+            this._commandCollection[0].CommandText = "SELECT GroupName FROM dbo.QuestionGroups";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -752,7 +752,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(LabaidHealthKioskDataSet1.QuestionsDataTable dataTable) {
+        public virtual int Fill(QuestionGroupDataSet.QuestionGroupsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -765,9 +765,9 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual LabaidHealthKioskDataSet1.QuestionsDataTable GetData() {
+        public virtual QuestionGroupDataSet.QuestionGroupsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            LabaidHealthKioskDataSet1.QuestionsDataTable dataTable = new LabaidHealthKioskDataSet1.QuestionsDataTable();
+            QuestionGroupDataSet.QuestionGroupsDataTable dataTable = new QuestionGroupDataSet.QuestionGroupsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -775,15 +775,15 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LabaidHealthKioskDataSet1.QuestionsDataTable dataTable) {
+        public virtual int Update(QuestionGroupDataSet.QuestionGroupsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(LabaidHealthKioskDataSet1 dataSet) {
-            return this.Adapter.Update(dataSet, "Questions");
+        public virtual int Update(QuestionGroupDataSet dataSet) {
+            return this.Adapter.Update(dataSet, "QuestionGroups");
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -805,12 +805,12 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string Ques) {
-            if ((Ques == null)) {
+        public virtual int Insert(string GroupName) {
+            if ((GroupName == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(Ques));
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(GroupName));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -841,7 +841,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         
         private UpdateOrderOption _updateOrder;
         
-        private QuestionsTableAdapter _questionsTableAdapter;
+        private QuestionGroupsTableAdapter _questionGroupsTableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -863,12 +863,12 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
             "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
             "a", "System.Drawing.Design.UITypeEditor")]
-        public QuestionsTableAdapter QuestionsTableAdapter {
+        public QuestionGroupsTableAdapter QuestionGroupsTableAdapter {
             get {
-                return this._questionsTableAdapter;
+                return this._questionGroupsTableAdapter;
             }
             set {
-                this._questionsTableAdapter = value;
+                this._questionGroupsTableAdapter = value;
             }
         }
         
@@ -891,9 +891,9 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
                 if ((this._connection != null)) {
                     return this._connection;
                 }
-                if (((this._questionsTableAdapter != null) 
-                            && (this._questionsTableAdapter.Connection != null))) {
-                    return this._questionsTableAdapter.Connection;
+                if (((this._questionGroupsTableAdapter != null) 
+                            && (this._questionGroupsTableAdapter.Connection != null))) {
+                    return this._questionGroupsTableAdapter.Connection;
                 }
                 return null;
             }
@@ -908,7 +908,7 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         public int TableAdapterInstanceCount {
             get {
                 int count = 0;
-                if ((this._questionsTableAdapter != null)) {
+                if ((this._questionGroupsTableAdapter != null)) {
                     count = (count + 1);
                 }
                 return count;
@@ -920,14 +920,14 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateUpdatedRows(LabaidHealthKioskDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(QuestionGroupDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._questionsTableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.Questions.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+            if ((this._questionGroupsTableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.QuestionGroups.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
-                    result = (result + this._questionsTableAdapter.Update(updatedRows));
+                    result = (result + this._questionGroupsTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -939,13 +939,13 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateInsertedRows(LabaidHealthKioskDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(QuestionGroupDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
-            if ((this._questionsTableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.Questions.Select(null, null, global::System.Data.DataViewRowState.Added);
+            if ((this._questionGroupsTableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.QuestionGroups.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
                             && (0 < addedRows.Length))) {
-                    result = (result + this._questionsTableAdapter.Update(addedRows));
+                    result = (result + this._questionGroupsTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
                 }
             }
@@ -957,13 +957,13 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateDeletedRows(LabaidHealthKioskDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(QuestionGroupDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._questionsTableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.Questions.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+            if ((this._questionGroupsTableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.QuestionGroups.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
-                    result = (result + this._questionsTableAdapter.Update(deletedRows));
+                    result = (result + this._questionGroupsTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }
@@ -999,15 +999,15 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public virtual int UpdateAll(LabaidHealthKioskDataSet1 dataSet) {
+        public virtual int UpdateAll(QuestionGroupDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
             if ((dataSet.HasChanges() == false)) {
                 return 0;
             }
-            if (((this._questionsTableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._questionsTableAdapter.Connection) == false))) {
+            if (((this._questionGroupsTableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._questionGroupsTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
                         "tring.");
             }
@@ -1043,13 +1043,13 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
             try {
                 // ---- Prepare for update -----------
                 //
-                if ((this._questionsTableAdapter != null)) {
-                    revertConnections.Add(this._questionsTableAdapter, this._questionsTableAdapter.Connection);
-                    this._questionsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._questionsTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._questionsTableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._questionsTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._questionsTableAdapter.Adapter);
+                if ((this._questionGroupsTableAdapter != null)) {
+                    revertConnections.Add(this._questionGroupsTableAdapter, this._questionGroupsTableAdapter.Connection);
+                    this._questionGroupsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._questionGroupsTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._questionGroupsTableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._questionGroupsTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._questionGroupsTableAdapter.Adapter);
                     }
                 }
                 // 
@@ -1110,9 +1110,9 @@ namespace LabaidHealthKiosk.LabaidHealthKioskDataSet1TableAdapters {
                 if (workConnOpened) {
                     workConnection.Close();
                 }
-                if ((this._questionsTableAdapter != null)) {
-                    this._questionsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._questionsTableAdapter]));
-                    this._questionsTableAdapter.Transaction = null;
+                if ((this._questionGroupsTableAdapter != null)) {
+                    this._questionGroupsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._questionGroupsTableAdapter]));
+                    this._questionGroupsTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];
