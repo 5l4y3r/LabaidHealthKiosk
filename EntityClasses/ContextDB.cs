@@ -11,6 +11,7 @@ namespace EntityClasses
     {
         public ContextDb() : base("Name=LabaidHealthKioskDb")
         {
+            
         }
         public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<Advertisement> Advertisements { get; set; }
