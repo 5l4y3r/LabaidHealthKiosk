@@ -178,18 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
-    <None Include="Resources\doctors-posing-in-front-of-hospital_1214-511.jpg" />
     <None Include="Resources\ezgif.com-gif-maker.gif" />
-    <None Include="Resources\arrow_curved_2_right1.gif" />
-    <None Include="Resources\arrow-clipart-animated-gif-3.gif" />
     <None Include="Resources\arrow_curved_2_right.gif" />
     <None Include="Resources\Complain-512.png" />
-    <None Include="Resources\complainking.png" />
-    <None Include="Resources\UnlinedSoggyHippopotamus-max-1mb.gif" />
-    <None Include="Resources\forward-512.png" />
-    <None Include="Resources\go_right.png" />
-    <None Include="Resources\doctors-posing-in-front-of-hospital_1214-51.jpg" />
-    <None Include="Resources\hospital-building-black-male-doctor-cartoon-front-eps-file-available-64970279.jpg" />
     <None Include="Resources\Is-your-customer-feedback-languishing-in-excel-part-2_5-300x300.png" />
     <None Include="Resources\9176434.png" />
     <None Include="QuestionDataSet.xsc">
@@ -215,9 +206,6 @@
       <DependentUpon>QuestionGroupDataSet.xsd</DependentUpon>
     </None>
     <None Include="Resources\Custom-Icon-Design-Flatastic-8-Refresh.ico" />
-    <None Include="Resources\icon_back.png" />
-    <None Include="Resources\Button Next.ico" />
-    <None Include="Resources\240_F_32348946_6LyWrw8sTY2hwuIRC85khoCh4nva4ir1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
