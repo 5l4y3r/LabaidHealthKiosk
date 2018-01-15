@@ -19,6 +19,8 @@ namespace EntityClasses
         public DbSet<Feedback> Feedbacks { get; set; }
         public DbSet<Complain> Complains { get; set; }
         public DbSet<ComplainList> ComplainLists { get; set; }
+        public DbSet<QuestionGroup> QuestionGroups { get; set; }
+
         
 
     }

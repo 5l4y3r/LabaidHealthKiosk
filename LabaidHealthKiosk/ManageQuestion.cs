@@ -23,33 +23,33 @@ namespace LabaidHealthKiosk
         private void ManageQuestion_Load(object sender, EventArgs e)
         {
 
-            var con = new ContextDb();
+            //var con = new ContextDb();
 
-            this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
+            //this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
 
         }
 
         private void AddQGroupBtn_Click(object sender, EventArgs e)
         {
-            string s = questionTxt.Text;
+            //string s = questionTxt.Text;
 
-            BusinessLayer.QuestionClass.AddQuestion(s,s);
-            MessageBox.Show("Qusetion Group added");
+            //BusinessLayer.QuestionClass.AddQuestion(s,s);
+            //MessageBox.Show("Qusetion Group added");
         }
 
         private void RefreshBtn_Click(object sender, EventArgs e)
         {
-            this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
+           // this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
            
         }
 
         private void QuestionGroupComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var con = new ContextDb();
-            tempString = QuestionGroupComboBox.Text;
-            var tempData = con.Questions.Where(t => t.QuestionGroup == tempString);
+            //var con = new ContextDb();
+            //tempString = QuestionGroupComboBox.Text;
+            //var tempData = con.Questions.Where(t => t.QuestionGroup == tempString);
 
-            questionsBindingSource1.DataSource = tempData.ToList();
+            //questionsBindingSource1.DataSource = tempData.ToList();
 
         }
 

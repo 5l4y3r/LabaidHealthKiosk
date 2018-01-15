@@ -16,7 +16,7 @@ namespace BusinessLayer
 
             context.Questions.Add(new Question()
             {
-                QuestionGroup = qgroup,
+                
                 Ques = qname
             });
             context.SaveChanges();

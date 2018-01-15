@@ -2,21 +2,19 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EntityClasses
 {
-    public class Feedback
+   public class QuestionGroup
     {
-        public Feedback() { }
+        public QuestionGroup() { }
 
         public int? Id { get; set; }
-        public string UserName { get; set; }
         [DefaultValue("NULL")]
-        public string Ans { get; set; }
-     
-       
+        public string GroupName { get; set; }
+
+        public ICollection<Question> Questions { get; set; }
     }
 }
