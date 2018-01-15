@@ -175,6 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Refresh.ico" />
     <None Include="Resources\icon_back.png" />
     <None Include="Resources\Button Next.ico" />
     <None Include="Resources\240_F_32348946_6LyWrw8sTY2hwuIRC85khoCh4nva4ir1.jpg" />

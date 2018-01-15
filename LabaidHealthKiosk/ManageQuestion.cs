@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EntityClasses;
 
 namespace LabaidHealthKiosk
 {
     public partial class ManageQuestion : Form
     {
+        private string tempString ;
+
         public ManageQuestion()
         {
             InitializeComponent();
@@ -19,9 +22,9 @@ namespace LabaidHealthKiosk
 
         private void ManageQuestion_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'labaidHealthKioskDataSet1.Questions' table. You can move, or remove it, as needed.
-            this.questionsTableAdapter1.Fill(this.labaidHealthKioskDataSet1.Questions);
-            // TODO: This line of code loads data into the 'labaidHealthKioskDataSet.Questions' table. You can move, or remove it, as needed.
+
+            var con = new ContextDb();
+
             this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
 
         }
@@ -31,7 +34,28 @@ namespace LabaidHealthKiosk
             string s = questionTxt.Text;
 
             BusinessLayer.QuestionClass.AddQuestion(s,s);
-            MessageBox.Show("Q added");
+            MessageBox.Show("Qusetion Group added");
+        }
+
+        private void RefreshBtn_Click(object sender, EventArgs e)
+        {
+            this.questionsTableAdapter.Fill(this.labaidHealthKioskDataSet.Questions);
+           
+        }
+
+        private void QuestionGroupComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var con = new ContextDb();
+            tempString = QuestionGroupComboBox.Text;
+            var tempData = con.Questions.Where(t => t.QuestionGroup == tempString);
+
+            questionsBindingSource1.DataSource = tempData.ToList();
+
+        }
+
+        private void AddQBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
