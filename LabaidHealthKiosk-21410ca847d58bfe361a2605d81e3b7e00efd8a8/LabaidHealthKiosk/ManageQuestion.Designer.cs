@@ -166,7 +166,7 @@
             // RefreshBtn
             // 
             this.RefreshBtn.BackColor = System.Drawing.Color.Transparent;
-           
+            this.RefreshBtn.Image = global::LabaidHealthKiosk.Properties.Resources.Custom_Icon_Design_Flatastic_8_Refresh;
             this.RefreshBtn.Location = new System.Drawing.Point(593, 101);
             this.RefreshBtn.Name = "RefreshBtn";
             this.RefreshBtn.Size = new System.Drawing.Size(43, 40);

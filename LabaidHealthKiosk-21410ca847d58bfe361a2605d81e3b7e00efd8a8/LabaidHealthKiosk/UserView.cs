@@ -60,10 +60,5 @@ namespace LabaidHealthKiosk
             panelUserInfo.BringToFront();
             panelUserInfo.Dock = DockStyle.Fill;
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -117,38 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="9176434" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9176434.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
   </data>
-  <data name="Is-your-customer-feedback-languishing-in-excel-part-2_5-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Is-your-customer-feedback-languishing-in-excel-part-2_5-300x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Complain-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Complain-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Identity_Card-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Identity_Card-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mobile-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mobile-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Complain-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Complain-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrow_curved_2_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_curved_2_right.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Custom-Icon-Design-Flatastic-8-Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Custom-Icon-Design-Flatastic-8-Refresh.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="durable-dme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\durable-dme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

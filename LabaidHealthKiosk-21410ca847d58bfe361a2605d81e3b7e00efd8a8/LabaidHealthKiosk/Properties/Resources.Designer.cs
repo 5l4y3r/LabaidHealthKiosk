@@ -63,9 +63,29 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _240_F_32348946_6LyWrw8sTY2hwuIRC85khoCh4nva4ir1 {
+            get {
+                object obj = ResourceManager.GetObject("240_F_32348946_6LyWrw8sTY2hwuIRC85khoCh4nva4ir1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9176434 {
             get {
                 object obj = ResourceManager.GetObject("9176434", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_clipart_animated_gif_3 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-clipart-animated-gif-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +103,26 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_curved_2_right1 {
+            get {
+                object obj = ResourceManager.GetObject("arrow_curved_2_right1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_Next {
+            get {
+                object obj = ResourceManager.GetObject("Button Next", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Complain_512 {
             get {
                 object obj = ResourceManager.GetObject("Complain-512", resourceCulture);
@@ -93,9 +133,9 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Complain_5121 {
+        internal static System.Drawing.Bitmap complainking {
             get {
-                object obj = ResourceManager.GetObject("Complain-5121", resourceCulture);
+                object obj = ResourceManager.GetObject("complainking", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +153,19 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap durable_dme {
+        internal static System.Drawing.Bitmap doctors_posing_in_front_of_hospital_1214_51 {
             get {
-                object obj = ResourceManager.GetObject("durable-dme", resourceCulture);
+                object obj = ResourceManager.GetObject("doctors-posing-in-front-of-hospital_1214-51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap doctors_posing_in_front_of_hospital_1214_511 {
+            get {
+                object obj = ResourceManager.GetObject("doctors-posing-in-front-of-hospital_1214-511", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +183,39 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Identity_Card_512 {
+        internal static System.Drawing.Bitmap forward_512 {
             get {
-                object obj = ResourceManager.GetObject("Identity_Card-512", resourceCulture);
+                object obj = ResourceManager.GetObject("forward-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap go_right {
+            get {
+                object obj = ResourceManager.GetObject("go_right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hospital_building_black_male_doctor_cartoon_front_eps_file_available_64970279 {
+            get {
+                object obj = ResourceManager.GetObject("hospital-building-black-male-doctor-cartoon-front-eps-file-available-64970279", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_back {
+            get {
+                object obj = ResourceManager.GetObject("icon_back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,19 +233,9 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mobile_2_icon {
+        internal static System.Drawing.Bitmap UnlinedSoggyHippopotamus_max_1mb {
             get {
-                object obj = ResourceManager.GetObject("mobile-2-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap user {
-            get {
-                object obj = ResourceManager.GetObject("user", resourceCulture);
+                object obj = ResourceManager.GetObject("UnlinedSoggyHippopotamus-max-1mb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
