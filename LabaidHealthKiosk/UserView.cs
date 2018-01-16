@@ -42,20 +42,43 @@ namespace LabaidHealthKiosk
 
         }
 
-        private void ComplainBtn_Click(object sender, EventArgs e)
+
+
+        private void ComplainSubmitBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
+            PanelWelcome.BringToFront();
+            panelComplain.SendToBack();
+            panelUserInfo.SendToBack();
+            PanelWelcome.Dock = DockStyle.Fill;
+
+        }
+
+       
+
+        private void Complainbtn_Click(object sender, EventArgs e)
         {
             x = 1;
             PanelWelcome.SendToBack();
             panelComplain.SendToBack();
             panelUserInfo.BringToFront();
             panelUserInfo.Dock = DockStyle.Fill;
-            
-            
+
         }
 
-        private void addUserBtn_Click(object sender, EventArgs e)
+        private void FeedbackBtn_Click(object sender, EventArgs e)
         {
+            x = 2;
+            PanelWelcome.SendToBack();
+            panelComplain.SendToBack();
+            panelUserInfo.BringToFront();
+            panelUserInfo.Dock = DockStyle.Fill;
+        }
 
+       
+
+        private void AddUserBtn_Click(object sender, EventArgs e)
+        {
             if (x == 1)
             {
                 panelUserInfo.SendToBack();
@@ -69,29 +92,6 @@ namespace LabaidHealthKiosk
                 PanelWelcome.Dock = DockStyle.Fill;
                 panelUserInfo.SendToBack();
             }
-        }
-
-        private void FeedbackBtn_Click(object sender, EventArgs e)
-        {
-            x = 2;
-            PanelWelcome.SendToBack();
-            panelComplain.SendToBack();
-            panelUserInfo.BringToFront();
-            panelUserInfo.Dock = DockStyle.Fill;
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ComplainSubmitBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
-            PanelWelcome.BringToFront();
-            panelComplain.SendToBack();
-            panelUserInfo.SendToBack();
-            PanelWelcome.Dock = DockStyle.Fill;
 
         }
     }

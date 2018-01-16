@@ -123,6 +123,15 @@
     <Compile Include="UserView.Designer.cs">
       <DependentUpon>UserView.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\171.jpg" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\smartphone-call.png" />
+    <None Include="Resources\id-card%281%29.png" />
+    <None Include="Resources\id-card.png" />
+    <None Include="Resources\179824-OWKU2J-91.jpg" />
+    <None Include="Resources\Feedback-PNG-Image.png" />
+    <None Include="Resources\ONB6PM0.jpg" />
+    <None Include="Resources\OSZB6Y0.jpg" />
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +160,11 @@
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="LabaidHealthKioskDataSet.xsc">
       <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
     </None>
@@ -177,6 +191,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="MetroFramework.txt" />
     <None Include="Resources\UnlinedSoggyHippopotamus-max-1mb.gif" />
     <None Include="Resources\durable-dme.png" />

@@ -21,5 +21,10 @@ namespace LabaidHealthKiosk
         {
 
         }
+
+        private void bunifuTextbox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
