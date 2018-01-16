@@ -163,6 +163,16 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap UnlinedSoggyHippopotamus_max_1mb {
+            get {
+                object obj = ResourceManager.GetObject("UnlinedSoggyHippopotamus-max-1mb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);

@@ -34,9 +34,9 @@
             this.UserNameTxt = new System.Windows.Forms.TextBox();
             this.PasswordTxt = new System.Windows.Forms.TextBox();
             this.LoginPanel = new System.Windows.Forms.Panel();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.LoginBtn = new System.Windows.Forms.Button();
             this.LoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,6 +106,19 @@
             this.LoginPanel.TabIndex = 6;
             this.LoginPanel.Visible = false;
             // 
+            // LoginBtn
+            // 
+            this.LoginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.LoginBtn.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.Navy;
+            this.LoginBtn.Location = new System.Drawing.Point(159, 119);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(118, 38);
+            this.LoginBtn.TabIndex = 8;
+            this.LoginBtn.Text = "Login";
+            this.LoginBtn.UseVisualStyleBackColor = false;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -127,19 +140,6 @@
             this.label2.Size = new System.Drawing.Size(142, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "User Name:";
-            // 
-            // LoginBtn
-            // 
-            this.LoginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.LoginBtn.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginBtn.ForeColor = System.Drawing.Color.Navy;
-            this.LoginBtn.Location = new System.Drawing.Point(159, 119);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(118, 38);
-            this.LoginBtn.TabIndex = 8;
-            this.LoginBtn.Text = "Login";
-            this.LoginBtn.UseVisualStyleBackColor = false;
-            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // Start
             // 

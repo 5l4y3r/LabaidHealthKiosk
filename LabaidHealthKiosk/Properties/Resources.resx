@@ -127,11 +127,14 @@
   <data name="Complain-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Complain-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durable-dme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\durable-dme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Identity_Card-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Identity_Card-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mobile-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mobile-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Complain-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Complain-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +148,10 @@
   <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mobile-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mobile-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="durable-dme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\durable-dme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UnlinedSoggyHippopotamus-max-1mb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UnlinedSoggyHippopotamus-max-1mb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

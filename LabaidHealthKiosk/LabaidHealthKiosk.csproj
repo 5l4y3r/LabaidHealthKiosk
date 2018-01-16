@@ -178,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\UnlinedSoggyHippopotamus-max-1mb.gif" />
     <None Include="Resources\durable-dme.png" />
     <None Include="Resources\mobile-2-icon.png" />
     <None Include="Resources\user.png" />
