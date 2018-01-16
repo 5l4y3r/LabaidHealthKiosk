@@ -132,7 +132,6 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FeedbackBtn.BackColor = System.Drawing.Color.White;
-            this.FeedbackBtn.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.Is_your_customer_feedback_languishing_in_excel_part_2_5_300x300;
             this.FeedbackBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FeedbackBtn.Location = new System.Drawing.Point(67, 72);
@@ -160,7 +159,6 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::LabaidHealthKiosk.Properties.Resources.arrow_curved_2_right;
             this.pictureBox1.Location = new System.Drawing.Point(27, 23);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(34, 23);
@@ -173,7 +171,6 @@
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::LabaidHealthKiosk.Properties.Resources.ezgif_com_gif_maker;
             this.pictureBox2.Location = new System.Drawing.Point(27, 72);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(34, 23);
@@ -187,7 +184,6 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ComplainBtn.BackColor = System.Drawing.Color.White;
-            this.ComplainBtn.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.Complain_512;
             this.ComplainBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ComplainBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ComplainBtn.Location = new System.Drawing.Point(67, 23);
@@ -199,7 +195,6 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources._9176434;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
