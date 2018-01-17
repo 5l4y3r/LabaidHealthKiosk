@@ -31,6 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserView));
             this.PanelWelcome = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.Complainbtn = new ns1.BunifuThinButton2();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.bunifuRating1 = new ns1.BunifuRating();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.FeedbackBtn = new ns1.BunifuThinButton2();
             this.panelComplain = new System.Windows.Forms.Panel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -50,18 +60,29 @@
             this.bunifuTextbox2 = new ns1.BunifuTextbox();
             this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
             this.AddUserBtn = new ns1.BunifuTileButton();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.Complainbtn = new ns1.BunifuThinButton2();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuRating1 = new ns1.BunifuRating();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.FeedbackBtn = new ns1.BunifuThinButton2();
+            this.PanelFeedback = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+            this.bunifuRating2 = new ns1.BunifuRating();
+            this.bunifuRating3 = new ns1.BunifuRating();
+            this.bunifuRating4 = new ns1.BunifuRating();
+            this.bunifuRating5 = new ns1.BunifuRating();
+            this.bunifuRating6 = new ns1.BunifuRating();
+            this.bunifuRating7 = new ns1.BunifuRating();
+            this.bunifuRating8 = new ns1.BunifuRating();
+            this.bunifuRating9 = new ns1.BunifuRating();
+            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+            this.bunifuImageButton2 = new ns1.BunifuImageButton();
+            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.bunifuImageButton1 = new ns1.BunifuImageButton();
             this.PanelWelcome.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
             this.panelComplain.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
@@ -73,11 +94,14 @@
             this.tableLayoutPanel13.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
             this.tableLayoutPanel15.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
-            this.tableLayoutPanel11.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
+            this.PanelFeedback.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.tableLayoutPanel19.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            this.tableLayoutPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelWelcome
@@ -101,6 +125,190 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(200, 120);
             this.tableLayoutPanel4.TabIndex = 1;
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.ONB6PM0;
+            this.tableLayoutPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel8, 1, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(194, 114);
+            this.tableLayoutPanel5.TabIndex = 0;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.BackColor = System.Drawing.Color.Transparent;
+            this.tableLayoutPanel8.ColumnCount = 1;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 4);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel10, 0, 2);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel11, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 0, 3);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(80, 3);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 5;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.36965F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.06226F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.2607F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.42801F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.87938F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(111, 108);
+            this.tableLayoutPanel8.TabIndex = 0;
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 4;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 74);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(105, 31);
+            this.tableLayoutPanel9.TabIndex = 4;
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 4;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
+            this.tableLayoutPanel10.Controls.Add(this.Complainbtn, 2, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(105, 14);
+            this.tableLayoutPanel10.TabIndex = 2;
+            // 
+            // Complainbtn
+            // 
+            this.Complainbtn.ActiveBorderThickness = 1;
+            this.Complainbtn.ActiveCornerRadius = 20;
+            this.Complainbtn.ActiveFillColor = System.Drawing.Color.DarkOrange;
+            this.Complainbtn.ActiveForecolor = System.Drawing.Color.White;
+            this.Complainbtn.ActiveLineColor = System.Drawing.Color.Orange;
+            this.Complainbtn.BackColor = System.Drawing.Color.Transparent;
+            this.Complainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Complainbtn.BackgroundImage")));
+            this.Complainbtn.ButtonText = "Complain Here";
+            this.Complainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Complainbtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Complainbtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Complainbtn.ForeColor = System.Drawing.Color.Goldenrod;
+            this.Complainbtn.IdleBorderThickness = 1;
+            this.Complainbtn.IdleCornerRadius = 20;
+            this.Complainbtn.IdleFillColor = System.Drawing.Color.White;
+            this.Complainbtn.IdleForecolor = System.Drawing.Color.Goldenrod;
+            this.Complainbtn.IdleLineColor = System.Drawing.Color.Gold;
+            this.Complainbtn.Location = new System.Drawing.Point(31, 6);
+            this.Complainbtn.Margin = new System.Windows.Forms.Padding(6);
+            this.Complainbtn.Name = "Complainbtn";
+            this.Complainbtn.Size = new System.Drawing.Size(59, 2);
+            this.Complainbtn.TabIndex = 1;
+            this.Complainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Complainbtn.Click += new System.EventHandler(this.Complainbtn_Click);
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.Controls.Add(this.bunifuRating1, 1, 0);
+            this.tableLayoutPanel11.Controls.Add(this.label5, 0, 0);
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(105, 10);
+            this.tableLayoutPanel11.TabIndex = 5;
+            // 
+            // bunifuRating1
+            // 
+            this.bunifuRating1.AutoSize = true;
+            this.bunifuRating1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuRating1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating1.ForeColor = System.Drawing.Color.Goldenrod;
+            this.bunifuRating1.Location = new System.Drawing.Point(39, 3);
+            this.bunifuRating1.Name = "bunifuRating1";
+            this.bunifuRating1.Size = new System.Drawing.Size(63, 4);
+            this.bunifuRating1.TabIndex = 0;
+            this.bunifuRating1.Value = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Location = new System.Drawing.Point(3, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(30, 10);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Rate Us :";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 4;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.7803F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.99242F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
+            this.tableLayoutPanel12.Controls.Add(this.FeedbackBtn, 2, 0);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 52);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(105, 16);
+            this.tableLayoutPanel12.TabIndex = 6;
+            // 
+            // FeedbackBtn
+            // 
+            this.FeedbackBtn.ActiveBorderThickness = 1;
+            this.FeedbackBtn.ActiveCornerRadius = 20;
+            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.Teal;
+            this.FeedbackBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.FeedbackBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeedbackBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FeedbackBtn.BackgroundImage")));
+            this.FeedbackBtn.ButtonText = "Feedback";
+            this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FeedbackBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FeedbackBtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FeedbackBtn.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.FeedbackBtn.IdleBorderThickness = 1;
+            this.FeedbackBtn.IdleCornerRadius = 20;
+            this.FeedbackBtn.IdleFillColor = System.Drawing.Color.White;
+            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.Teal;
+            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.LightSeaGreen;
+            this.FeedbackBtn.Location = new System.Drawing.Point(30, 6);
+            this.FeedbackBtn.Margin = new System.Windows.Forms.Padding(6);
+            this.FeedbackBtn.Name = "FeedbackBtn";
+            this.FeedbackBtn.Size = new System.Drawing.Size(59, 4);
+            this.FeedbackBtn.TabIndex = 1;
+            this.FeedbackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.FeedbackBtn.Click += new System.EventHandler(this.FeedbackBtn_Click);
             // 
             // panelComplain
             // 
@@ -435,189 +643,224 @@
             this.AddUserBtn.TabIndex = 0;
             this.AddUserBtn.Click += new System.EventHandler(this.AddUserBtn_Click);
             // 
-            // tableLayoutPanel5
+            // PanelFeedback
             // 
-            this.tableLayoutPanel5.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.ONB6PM0;
-            this.tableLayoutPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel8, 1, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(194, 114);
-            this.tableLayoutPanel5.TabIndex = 0;
+            this.PanelFeedback.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.ONB6OY00;
+            this.PanelFeedback.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PanelFeedback.Controls.Add(this.tableLayoutPanel17);
+            this.PanelFeedback.Location = new System.Drawing.Point(334, 188);
+            this.PanelFeedback.Name = "PanelFeedback";
+            this.PanelFeedback.Size = new System.Drawing.Size(210, 166);
+            this.PanelFeedback.TabIndex = 11;
             // 
-            // tableLayoutPanel8
+            // tableLayoutPanel17
             // 
-            this.tableLayoutPanel8.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel8.ColumnCount = 1;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 4);
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel10, 0, 2);
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel11, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 0, 3);
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(80, 3);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 5;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.36965F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.06226F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.2607F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.42801F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.87938F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(111, 108);
-            this.tableLayoutPanel8.TabIndex = 0;
+            this.tableLayoutPanel17.BackColor = System.Drawing.Color.Transparent;
+            this.tableLayoutPanel17.ColumnCount = 4;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel18, 2, 0);
+            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel20, 3, 0);
+            this.tableLayoutPanel17.Controls.Add(this.tableLayoutPanel21, 1, 0);
+            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 1;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(210, 166);
+            this.tableLayoutPanel17.TabIndex = 0;
             // 
-            // tableLayoutPanel9
+            // tableLayoutPanel18
             // 
-            this.tableLayoutPanel9.ColumnCount = 4;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 74);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 1;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(105, 31);
-            this.tableLayoutPanel9.TabIndex = 4;
+            this.tableLayoutPanel18.ColumnCount = 1;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.Controls.Add(this.tableLayoutPanel19, 0, 1);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(87, 3);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 2;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.71921F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.28078F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(99, 160);
+            this.tableLayoutPanel18.TabIndex = 0;
             // 
-            // tableLayoutPanel10
+            // tableLayoutPanel19
             // 
-            this.tableLayoutPanel10.ColumnCount = 4;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
-            this.tableLayoutPanel10.Controls.Add(this.Complainbtn, 2, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(105, 14);
-            this.tableLayoutPanel10.TabIndex = 2;
+            this.tableLayoutPanel19.ColumnCount = 3;
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.76344F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.18732F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.93548F));
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating2, 2, 0);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating3, 2, 1);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating4, 2, 2);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating5, 2, 3);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating6, 2, 4);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating7, 2, 5);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating8, 2, 7);
+            this.tableLayoutPanel19.Controls.Add(this.bunifuRating9, 2, 6);
+            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+            this.tableLayoutPanel19.RowCount = 8;
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(93, 125);
+            this.tableLayoutPanel19.TabIndex = 0;
             // 
-            // Complainbtn
+            // bunifuRating2
             // 
-            this.Complainbtn.ActiveBorderThickness = 1;
-            this.Complainbtn.ActiveCornerRadius = 20;
-            this.Complainbtn.ActiveFillColor = System.Drawing.Color.DarkOrange;
-            this.Complainbtn.ActiveForecolor = System.Drawing.Color.White;
-            this.Complainbtn.ActiveLineColor = System.Drawing.Color.Orange;
-            this.Complainbtn.BackColor = System.Drawing.Color.Transparent;
-            this.Complainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Complainbtn.BackgroundImage")));
-            this.Complainbtn.ButtonText = "Complain Here";
-            this.Complainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Complainbtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Complainbtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Complainbtn.ForeColor = System.Drawing.Color.Goldenrod;
-            this.Complainbtn.IdleBorderThickness = 1;
-            this.Complainbtn.IdleCornerRadius = 20;
-            this.Complainbtn.IdleFillColor = System.Drawing.Color.White;
-            this.Complainbtn.IdleForecolor = System.Drawing.Color.Goldenrod;
-            this.Complainbtn.IdleLineColor = System.Drawing.Color.Gold;
-            this.Complainbtn.Location = new System.Drawing.Point(31, 6);
-            this.Complainbtn.Margin = new System.Windows.Forms.Padding(6);
-            this.Complainbtn.Name = "Complainbtn";
-            this.Complainbtn.Size = new System.Drawing.Size(59, 2);
-            this.Complainbtn.TabIndex = 1;
-            this.Complainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Complainbtn.Click += new System.EventHandler(this.Complainbtn_Click);
+            this.bunifuRating2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating2.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating2.Location = new System.Drawing.Point(56, 3);
+            this.bunifuRating2.Name = "bunifuRating2";
+            this.bunifuRating2.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating2.TabIndex = 0;
+            this.bunifuRating2.Value = 0;
             // 
-            // tableLayoutPanel11
+            // bunifuRating3
             // 
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.Controls.Add(this.bunifuRating1, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.label5, 0, 0);
-            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 1;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(105, 10);
-            this.tableLayoutPanel11.TabIndex = 5;
+            this.bunifuRating3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating3.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating3.Location = new System.Drawing.Point(56, 18);
+            this.bunifuRating3.Name = "bunifuRating3";
+            this.bunifuRating3.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating3.TabIndex = 0;
+            this.bunifuRating3.Value = 0;
             // 
-            // bunifuRating1
+            // bunifuRating4
             // 
-            this.bunifuRating1.AutoSize = true;
-            this.bunifuRating1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuRating1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating1.ForeColor = System.Drawing.Color.Goldenrod;
-            this.bunifuRating1.Location = new System.Drawing.Point(39, 3);
-            this.bunifuRating1.Name = "bunifuRating1";
-            this.bunifuRating1.Size = new System.Drawing.Size(63, 4);
-            this.bunifuRating1.TabIndex = 0;
-            this.bunifuRating1.Value = 0;
+            this.bunifuRating4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating4.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating4.Location = new System.Drawing.Point(56, 33);
+            this.bunifuRating4.Name = "bunifuRating4";
+            this.bunifuRating4.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating4.TabIndex = 0;
+            this.bunifuRating4.Value = 0;
             // 
-            // label5
+            // bunifuRating5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(3, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 10);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Rate Us :";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuRating5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating5.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating5.Location = new System.Drawing.Point(56, 48);
+            this.bunifuRating5.Name = "bunifuRating5";
+            this.bunifuRating5.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating5.TabIndex = 0;
+            this.bunifuRating5.Value = 0;
             // 
-            // tableLayoutPanel12
+            // bunifuRating6
             // 
-            this.tableLayoutPanel12.ColumnCount = 4;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.7803F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.99242F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
-            this.tableLayoutPanel12.Controls.Add(this.FeedbackBtn, 2, 0);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 52);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 1;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(105, 16);
-            this.tableLayoutPanel12.TabIndex = 6;
+            this.bunifuRating6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating6.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating6.Location = new System.Drawing.Point(56, 63);
+            this.bunifuRating6.Name = "bunifuRating6";
+            this.bunifuRating6.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating6.TabIndex = 0;
+            this.bunifuRating6.Value = 0;
             // 
-            // FeedbackBtn
+            // bunifuRating7
             // 
-            this.FeedbackBtn.ActiveBorderThickness = 1;
-            this.FeedbackBtn.ActiveCornerRadius = 20;
-            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.Teal;
-            this.FeedbackBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.FeedbackBtn.BackColor = System.Drawing.Color.Transparent;
-            this.FeedbackBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FeedbackBtn.BackgroundImage")));
-            this.FeedbackBtn.ButtonText = "Feedback";
-            this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FeedbackBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FeedbackBtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FeedbackBtn.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.FeedbackBtn.IdleBorderThickness = 1;
-            this.FeedbackBtn.IdleCornerRadius = 20;
-            this.FeedbackBtn.IdleFillColor = System.Drawing.Color.White;
-            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.Teal;
-            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.LightSeaGreen;
-            this.FeedbackBtn.Location = new System.Drawing.Point(30, 6);
-            this.FeedbackBtn.Margin = new System.Windows.Forms.Padding(6);
-            this.FeedbackBtn.Name = "FeedbackBtn";
-            this.FeedbackBtn.Size = new System.Drawing.Size(59, 4);
-            this.FeedbackBtn.TabIndex = 1;
-            this.FeedbackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.FeedbackBtn.Click += new System.EventHandler(this.FeedbackBtn_Click);
+            this.bunifuRating7.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating7.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating7.Location = new System.Drawing.Point(56, 78);
+            this.bunifuRating7.Name = "bunifuRating7";
+            this.bunifuRating7.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating7.TabIndex = 0;
+            this.bunifuRating7.Value = 0;
+            // 
+            // bunifuRating8
+            // 
+            this.bunifuRating8.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating8.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating8.Location = new System.Drawing.Point(56, 108);
+            this.bunifuRating8.Name = "bunifuRating8";
+            this.bunifuRating8.Size = new System.Drawing.Size(34, 14);
+            this.bunifuRating8.TabIndex = 0;
+            this.bunifuRating8.Value = 0;
+            // 
+            // bunifuRating9
+            // 
+            this.bunifuRating9.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRating9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuRating9.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuRating9.Location = new System.Drawing.Point(56, 93);
+            this.bunifuRating9.Name = "bunifuRating9";
+            this.bunifuRating9.Size = new System.Drawing.Size(34, 9);
+            this.bunifuRating9.TabIndex = 1;
+            this.bunifuRating9.Value = 0;
+            // 
+            // tableLayoutPanel20
+            // 
+            this.tableLayoutPanel20.ColumnCount = 1;
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel20.Controls.Add(this.bunifuImageButton2, 0, 1);
+            this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(192, 3);
+            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+            this.tableLayoutPanel20.RowCount = 3;
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(15, 160);
+            this.tableLayoutPanel20.TabIndex = 1;
+            // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuImageButton2.Image = global::LabaidHealthKiosk.Properties.Resources.next;
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(3, 67);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(9, 26);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 0;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            // 
+            // tableLayoutPanel21
+            // 
+            this.tableLayoutPanel21.ColumnCount = 1;
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel21.Controls.Add(this.bunifuImageButton1, 0, 1);
+            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(66, 3);
+            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+            this.tableLayoutPanel21.RowCount = 3;
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(15, 160);
+            this.tableLayoutPanel21.TabIndex = 2;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuImageButton1.Image = global::LabaidHealthKiosk.Properties.Resources.back;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(3, 67);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(9, 26);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 0;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
             // 
             // UserView
             // 
@@ -626,6 +869,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(878, 542);
             this.ControlBox = false;
+            this.Controls.Add(this.PanelFeedback);
             this.Controls.Add(this.panelComplain);
             this.Controls.Add(this.panelUserInfo);
             this.Controls.Add(this.PanelWelcome);
@@ -635,6 +879,12 @@
             this.Load += new System.EventHandler(this.UserView_Load);
             this.PanelWelcome.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel11.PerformLayout();
+            this.tableLayoutPanel12.ResumeLayout(false);
             this.panelComplain.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
@@ -647,12 +897,14 @@
             this.tableLayoutPanel13.ResumeLayout(false);
             this.tableLayoutPanel14.ResumeLayout(false);
             this.tableLayoutPanel15.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.tableLayoutPanel11.PerformLayout();
-            this.tableLayoutPanel12.ResumeLayout(false);
+            this.PanelFeedback.ResumeLayout(false);
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel20.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            this.tableLayoutPanel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -689,5 +941,21 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private ns1.BunifuThinButton2 ComplainSubmitBtn;
         private ns1.BunifuThinButton2 bunifuThinButton22;
+        private System.Windows.Forms.Panel PanelFeedback;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
+        private ns1.BunifuRating bunifuRating2;
+        private ns1.BunifuRating bunifuRating3;
+        private ns1.BunifuRating bunifuRating4;
+        private ns1.BunifuRating bunifuRating5;
+        private ns1.BunifuRating bunifuRating6;
+        private ns1.BunifuRating bunifuRating7;
+        private ns1.BunifuRating bunifuRating8;
+        private ns1.BunifuRating bunifuRating9;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel20;
+        private ns1.BunifuImageButton bunifuImageButton2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel21;
+        private ns1.BunifuImageButton bunifuImageButton1;
     }
 }

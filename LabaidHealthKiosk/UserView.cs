@@ -24,15 +24,14 @@ namespace LabaidHealthKiosk
             
             PanelWelcome.BringToFront();
             PanelWelcome.Dock = DockStyle.Fill;
-            panelUserInfo.SendToBack();
+            
         }
 
 
         private void Complainbtn_Click(object sender, EventArgs e)
         {
             x = 1;
-            PanelWelcome.SendToBack();
-            panelComplain.SendToBack();
+           
             panelUserInfo.BringToFront();
             panelUserInfo.Dock = DockStyle.Fill;
 
@@ -41,8 +40,7 @@ namespace LabaidHealthKiosk
         private void FeedbackBtn_Click(object sender, EventArgs e)
         {
             x = 2;
-            PanelWelcome.SendToBack();
-            panelComplain.SendToBack();
+           
             panelUserInfo.BringToFront();
             panelUserInfo.Dock = DockStyle.Fill;
         }
@@ -53,16 +51,15 @@ namespace LabaidHealthKiosk
         {
             if (x == 1)
             {
-                panelUserInfo.SendToBack();
-                PanelWelcome.SendToBack();
+                
                 panelComplain.BringToFront();
                 panelComplain.Dock = DockStyle.Fill;
             }
             else if (x == 2)
             {
-                PanelWelcome.BringToFront();
-                PanelWelcome.Dock = DockStyle.Fill;
-                panelUserInfo.SendToBack();
+                PanelFeedback.BringToFront();
+                PanelFeedback.Dock = DockStyle.Fill;
+             
             }
 
         }
@@ -71,8 +68,7 @@ namespace LabaidHealthKiosk
         {
             MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
             PanelWelcome.BringToFront();
-            panelComplain.SendToBack();
-            panelUserInfo.SendToBack();
+           
             PanelWelcome.Dock = DockStyle.Fill;
 
         }

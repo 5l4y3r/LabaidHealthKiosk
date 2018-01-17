@@ -103,6 +103,16 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Complain_512 {
             get {
                 object obj = ResourceManager.GetObject("Complain-512", resourceCulture);
@@ -206,6 +216,36 @@ namespace LabaidHealthKiosk.Properties {
         internal static System.Drawing.Bitmap mobile_2_icon {
             get {
                 object obj = ResourceManager.GetObject("mobile-2-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap next {
+            get {
+                object obj = ResourceManager.GetObject("next", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ONB6OY0 {
+            get {
+                object obj = ResourceManager.GetObject("ONB6OY0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ONB6OY00 {
+            get {
+                object obj = ResourceManager.GetObject("ONB6OY00", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
