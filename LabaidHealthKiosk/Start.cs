@@ -20,7 +20,7 @@ namespace LabaidHealthKiosk
 
         private void StartBtn_Click(object sender, EventArgs e)
         {
-            
+
             UserView u = new UserView();
             u.Show();
 

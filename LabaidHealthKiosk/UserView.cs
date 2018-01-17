@@ -27,34 +27,6 @@ namespace LabaidHealthKiosk
             panelUserInfo.SendToBack();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-
-        private void ComplainSubmitBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
-            PanelWelcome.BringToFront();
-            panelComplain.SendToBack();
-            panelUserInfo.SendToBack();
-            PanelWelcome.Dock = DockStyle.Fill;
-
-        }
-
-       
 
         private void Complainbtn_Click(object sender, EventArgs e)
         {
@@ -92,6 +64,16 @@ namespace LabaidHealthKiosk
                 PanelWelcome.Dock = DockStyle.Fill;
                 panelUserInfo.SendToBack();
             }
+
+        }
+
+        private void ComplainSubmitBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
+            PanelWelcome.BringToFront();
+            panelComplain.SendToBack();
+            panelUserInfo.SendToBack();
+            PanelWelcome.Dock = DockStyle.Fill;
 
         }
     }
