@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace LabaidHealthKiosk
 {
-    public partial class Tempo : Form
+    public partial class tempo : Form
     {
-        public Tempo()
+        public tempo()
         {
             InitializeComponent();
         }
 
-        private void Tempo_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuTextbox3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

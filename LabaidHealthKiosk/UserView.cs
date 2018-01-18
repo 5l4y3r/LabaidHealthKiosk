@@ -21,7 +21,7 @@ namespace LabaidHealthKiosk
 
         private void UserView_Load(object sender, EventArgs e)
         {
-            
+          
             PanelWelcome.BringToFront();
             PanelWelcome.Dock = DockStyle.Fill;
             

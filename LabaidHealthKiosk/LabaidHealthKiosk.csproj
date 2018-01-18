@@ -114,6 +114,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="QuestionDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -130,11 +135,11 @@
     <Compile Include="Start.Designer.cs">
       <DependentUpon>Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tempo.cs">
+    <Compile Include="tempo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tempo.Designer.cs">
-      <DependentUpon>Tempo.cs</DependentUpon>
+    <Compile Include="tempo.Designer.cs">
+      <DependentUpon>tempo.cs</DependentUpon>
     </Compile>
     <Compile Include="UserView.cs">
       <SubType>Form</SubType>
@@ -142,19 +147,6 @@
     <Compile Include="UserView.Designer.cs">
       <DependentUpon>UserView.cs</DependentUpon>
     </Compile>
-    <None Include="Resources\next.png" />
-    <None Include="Resources\back.png" />
-    <None Include="Resources\ONB6OY00.jpg" />
-    <None Include="Resources\ONB6OY0.jpg" />
-    <None Include="Resources\171.jpg" />
-    <None Include="Resources\users.png" />
-    <None Include="Resources\smartphone-call.png" />
-    <None Include="Resources\id-card%281%29.png" />
-    <None Include="Resources\id-card.png" />
-    <None Include="Resources\179824-OWKU2J-91.jpg" />
-    <None Include="Resources\Feedback-PNG-Image.png" />
-    <None Include="Resources\ONB6PM0.jpg" />
-    <None Include="Resources\OSZB6Y0.jpg" />
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,28 +158,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tempo.resx">
-      <DependentUpon>Tempo.cs</DependentUpon>
+      <DependentUpon>tempo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
     <None Include="LabaidHealthKioskDataSet.xsc">
       <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
     </None>
@@ -214,20 +196,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\font-awesome.css" />
-    <Content Include="Content\font-awesome.min.css" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="MetroFramework.txt" />
-    <None Include="Resources\UnlinedSoggyHippopotamus-max-1mb.gif" />
-    <None Include="Resources\durable-dme.png" />
-    <None Include="Resources\mobile-2-icon.png" />
-    <None Include="Resources\user.png" />
-    <None Include="Resources\Identity_Card-512.png" />
-    <None Include="Resources\ezgif.com-gif-maker.gif" />
-    <None Include="Resources\arrow_curved_2_right.gif" />
-    <None Include="Resources\Complain-512.png" />
-    <None Include="Resources\Is-your-customer-feedback-languishing-in-excel-part-2_5-300x300.png" />
-    <None Include="Resources\9176434.png" />
+    <None Include="Resources\appledoc.jpg" />
+    <None Include="Resources\Stethescope.jpg" />
+    <None Include="Resources\Pad.jpg" />
+    <None Include="Resources\nurse.jpg" />
     <None Include="QuestionDataSet.xsc">
       <DependentUpon>QuestionDataSet.xsd</DependentUpon>
     </None>
@@ -250,7 +223,6 @@
     <None Include="QuestionGroupDataSet.xss">
       <DependentUpon>QuestionGroupDataSet.xsd</DependentUpon>
     </None>
-    <None Include="Resources\Custom-Icon-Design-Flatastic-8-Refresh.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
@@ -262,6 +234,7 @@
       <Name>EntityClasses</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
