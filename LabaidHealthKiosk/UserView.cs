@@ -13,64 +13,30 @@ namespace LabaidHealthKiosk
     public partial class UserView : Form
     {
         static int x = 0;
+
         public UserView()
         {
             InitializeComponent();
-            
+            DoubleBuffered = true;
+
         }
 
         private void UserView_Load(object sender, EventArgs e)
         {
-          
-            PanelWelcome.BringToFront();
-            PanelWelcome.Dock = DockStyle.Fill;
-            
+            PanelUserViewMain.Controls.Clear();
+            PanelUserViewMain.Controls.Add(new ControlWelcome());
         }
 
-
-        private void Complainbtn_Click(object sender, EventArgs e)
+        protected override CreateParams CreateParams
         {
-            x = 1;
-           
-            panelUserInfo.BringToFront();
-            panelUserInfo.Dock = DockStyle.Fill;
-
-        }
-
-        private void FeedbackBtn_Click(object sender, EventArgs e)
-        {
-            x = 2;
-           
-            panelUserInfo.BringToFront();
-            panelUserInfo.Dock = DockStyle.Fill;
-        }
-
-       
-
-        private void AddUserBtn_Click(object sender, EventArgs e)
-        {
-            if (x == 1)
+            get
             {
-                
-                panelComplain.BringToFront();
-                panelComplain.Dock = DockStyle.Fill;
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
             }
-            else if (x == 2)
-            {
-                PanelFeedback.BringToFront();
-                PanelFeedback.Dock = DockStyle.Fill;
-             
-            }
-
-        }
-
-        private void ComplainSubmitBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Thank You Sir. We will try to solve your problem as soon as possible");
-            PanelWelcome.BringToFront();
-           
-            PanelWelcome.Dock = DockStyle.Fill;
-
         }
     }
+
+
 }

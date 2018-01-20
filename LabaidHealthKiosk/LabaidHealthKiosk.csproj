@@ -95,6 +95,30 @@
     <Compile Include="AdminPanel.Designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlComplain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlComplain.Designer.cs">
+      <DependentUpon>ControlComplain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlFeedback.Designer.cs">
+      <DependentUpon>ControlFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUserInfo.Designer.cs">
+      <DependentUpon>ControlUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlWelcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlWelcome.Designer.cs">
+      <DependentUpon>ControlWelcome.cs</DependentUpon>
+    </Compile>
     <Compile Include="LabaidHealthKioskDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -135,12 +159,8 @@
     <Compile Include="Start.Designer.cs">
       <DependentUpon>Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="tempo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="tempo.Designer.cs">
-      <DependentUpon>tempo.cs</DependentUpon>
-    </Compile>
+    <Compile Include="System\Windows\Forms\PanelDoubleBuffered.cs" />
+    <Compile Include="System\Windows\Forms\TableLayoutPanel1.cs" />
     <Compile Include="UserView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +169,18 @@
     </Compile>
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlComplain.resx">
+      <DependentUpon>ControlComplain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlFeedback.resx">
+      <DependentUpon>ControlFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUserInfo.resx">
+      <DependentUpon>ControlUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlWelcome.resx">
+      <DependentUpon>ControlWelcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageQuestion.resx">
       <DependentUpon>ManageQuestion.cs</DependentUpon>
@@ -163,9 +195,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tempo.resx">
-      <DependentUpon>tempo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
@@ -197,6 +226,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\Nurse22.jpg" />
+    <None Include="Resources\nurse11.jpg" />
     <None Include="Resources\appledoc.jpg" />
     <None Include="Resources\Stethescope.jpg" />
     <None Include="Resources\Pad.jpg" />
