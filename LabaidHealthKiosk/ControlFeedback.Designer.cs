@@ -57,8 +57,7 @@
             this.bunifuRating12 = new ns1.BunifuRating();
             this.labelQuestionGroup = new ns1.BunifuCustomLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuFlatButton2 = new ns1.BunifuFlatButton();
-            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
+            this.btnBack = new ns1.BunifuFlatButton();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btnNext = new ns1.BunifuFlatButton();
             this.tableLayoutPanel17.SuspendLayout();
@@ -106,9 +105,9 @@
             // tableLayoutPanel19
             // 
             this.tableLayoutPanel19.ColumnCount = 3;
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.29115F));
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.141753F));
-            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.5671F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.33894F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.521008F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.85994F));
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating2, 2, 0);
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating3, 2, 1);
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating4, 2, 2);
@@ -160,10 +159,10 @@
             this.bunifuRating2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating2.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating2.Location = new System.Drawing.Point(210, 2);
+            this.bunifuRating2.Location = new System.Drawing.Point(180, 2);
             this.bunifuRating2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating2.Name = "bunifuRating2";
-            this.bunifuRating2.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating2.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating2.TabIndex = 0;
             this.bunifuRating2.Value = 0;
             // 
@@ -173,10 +172,10 @@
             this.bunifuRating3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating3.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating3.Location = new System.Drawing.Point(210, 33);
+            this.bunifuRating3.Location = new System.Drawing.Point(180, 33);
             this.bunifuRating3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating3.Name = "bunifuRating3";
-            this.bunifuRating3.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating3.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating3.TabIndex = 0;
             this.bunifuRating3.Value = 0;
             // 
@@ -186,10 +185,10 @@
             this.bunifuRating4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating4.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating4.Location = new System.Drawing.Point(210, 64);
+            this.bunifuRating4.Location = new System.Drawing.Point(180, 64);
             this.bunifuRating4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating4.Name = "bunifuRating4";
-            this.bunifuRating4.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating4.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating4.TabIndex = 0;
             this.bunifuRating4.Value = 0;
             // 
@@ -199,10 +198,10 @@
             this.bunifuRating5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating5.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating5.Location = new System.Drawing.Point(210, 95);
+            this.bunifuRating5.Location = new System.Drawing.Point(180, 95);
             this.bunifuRating5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating5.Name = "bunifuRating5";
-            this.bunifuRating5.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating5.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating5.TabIndex = 0;
             this.bunifuRating5.Value = 0;
             // 
@@ -212,10 +211,10 @@
             this.bunifuRating6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating6.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating6.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating6.Location = new System.Drawing.Point(210, 126);
+            this.bunifuRating6.Location = new System.Drawing.Point(180, 126);
             this.bunifuRating6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating6.Name = "bunifuRating6";
-            this.bunifuRating6.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating6.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating6.TabIndex = 0;
             this.bunifuRating6.Value = 0;
             // 
@@ -225,10 +224,10 @@
             this.bunifuRating7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating7.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating7.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating7.Location = new System.Drawing.Point(210, 157);
+            this.bunifuRating7.Location = new System.Drawing.Point(180, 157);
             this.bunifuRating7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating7.Name = "bunifuRating7";
-            this.bunifuRating7.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating7.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating7.TabIndex = 0;
             this.bunifuRating7.Value = 0;
             // 
@@ -358,10 +357,10 @@
             this.bunifuRating1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating1.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating1.Location = new System.Drawing.Point(210, 188);
+            this.bunifuRating1.Location = new System.Drawing.Point(180, 188);
             this.bunifuRating1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating1.Name = "bunifuRating1";
-            this.bunifuRating1.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating1.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating1.TabIndex = 0;
             this.bunifuRating1.Value = 0;
             // 
@@ -371,10 +370,10 @@
             this.bunifuRating8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating8.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating8.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating8.Location = new System.Drawing.Point(210, 219);
+            this.bunifuRating8.Location = new System.Drawing.Point(180, 219);
             this.bunifuRating8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating8.Name = "bunifuRating8";
-            this.bunifuRating8.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating8.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating8.TabIndex = 0;
             this.bunifuRating8.Value = 0;
             // 
@@ -384,10 +383,10 @@
             this.bunifuRating9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating9.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating9.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating9.Location = new System.Drawing.Point(210, 250);
+            this.bunifuRating9.Location = new System.Drawing.Point(180, 250);
             this.bunifuRating9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating9.Name = "bunifuRating9";
-            this.bunifuRating9.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating9.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating9.TabIndex = 0;
             this.bunifuRating9.Value = 0;
             // 
@@ -397,10 +396,10 @@
             this.bunifuRating10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating10.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating10.Location = new System.Drawing.Point(210, 281);
+            this.bunifuRating10.Location = new System.Drawing.Point(180, 281);
             this.bunifuRating10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating10.Name = "bunifuRating10";
-            this.bunifuRating10.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating10.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating10.TabIndex = 0;
             this.bunifuRating10.Value = 0;
             // 
@@ -410,10 +409,10 @@
             this.bunifuRating11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating11.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating11.Location = new System.Drawing.Point(210, 312);
+            this.bunifuRating11.Location = new System.Drawing.Point(180, 312);
             this.bunifuRating11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating11.Name = "bunifuRating11";
-            this.bunifuRating11.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating11.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating11.TabIndex = 0;
             this.bunifuRating11.Value = 0;
             // 
@@ -423,10 +422,10 @@
             this.bunifuRating12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuRating12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuRating12.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating12.Location = new System.Drawing.Point(210, 343);
+            this.bunifuRating12.Location = new System.Drawing.Point(180, 343);
             this.bunifuRating12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuRating12.Name = "bunifuRating12";
-            this.bunifuRating12.Size = new System.Drawing.Size(145, 27);
+            this.bunifuRating12.Size = new System.Drawing.Size(175, 27);
             this.bunifuRating12.TabIndex = 0;
             this.bunifuRating12.Value = 0;
             // 
@@ -440,15 +439,14 @@
             this.labelQuestionGroup.Name = "labelQuestionGroup";
             this.labelQuestionGroup.Size = new System.Drawing.Size(357, 96);
             this.labelQuestionGroup.TabIndex = 1;
-            this.labelQuestionGroup.Text = "Question Group 1";
+            this.labelQuestionGroup.Text = "Question Group : ";
             this.labelQuestionGroup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.bunifuFlatButton2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.bunifuFlatButton1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btnBack, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(224, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -461,73 +459,41 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(67, 518);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // bunifuFlatButton2
+            // btnBack
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = global::LabaidHealthKiosk.Properties.Resources.back;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 90D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(3, 201);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(61, 50);
-            this.bunifuFlatButton2.TabIndex = 2;
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton1
-            // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::LabaidHealthKiosk.Properties.Resources.next;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 90D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(3, 3);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(61, 192);
-            this.bunifuFlatButton1.TabIndex = 1;
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Activecolor = System.Drawing.Color.Transparent;
+            this.btnBack.BackColor = System.Drawing.Color.Transparent;
+            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnBack.BorderRadius = 0;
+            this.btnBack.ButtonText = "";
+            this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBack.DisabledColor = System.Drawing.Color.Gray;
+            this.btnBack.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnBack.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnBack.Iconimage = global::LabaidHealthKiosk.Properties.Resources.back;
+            this.btnBack.Iconimage_right = null;
+            this.btnBack.Iconimage_right_Selected = null;
+            this.btnBack.Iconimage_Selected = null;
+            this.btnBack.IconMarginLeft = 0;
+            this.btnBack.IconMarginRight = 0;
+            this.btnBack.IconRightVisible = true;
+            this.btnBack.IconRightZoom = 0D;
+            this.btnBack.IconVisible = true;
+            this.btnBack.IconZoom = 90D;
+            this.btnBack.IsTab = false;
+            this.btnBack.Location = new System.Drawing.Point(3, 201);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Normalcolor = System.Drawing.Color.Transparent;
+            this.btnBack.OnHovercolor = System.Drawing.Color.Transparent;
+            this.btnBack.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnBack.selected = false;
+            this.btnBack.Size = new System.Drawing.Size(61, 50);
+            this.btnBack.TabIndex = 2;
+            this.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnBack.Textcolor = System.Drawing.Color.White;
+            this.btnBack.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.MouseHover += new System.EventHandler(this.btnBack_MouseHover);
             // 
             // tableLayoutPanel2
             // 
@@ -548,7 +514,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.btnNext.Activecolor = System.Drawing.Color.Transparent;
             this.btnNext.BackColor = System.Drawing.Color.Transparent;
             this.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnNext.BorderRadius = 0;
@@ -580,6 +546,7 @@
             this.btnNext.Textcolor = System.Drawing.Color.White;
             this.btnNext.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            this.btnNext.MouseHover += new System.EventHandler(this.btnNext_MouseHover);
             // 
             // ControlFeedback
             // 
@@ -635,7 +602,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private ns1.BunifuFlatButton btnNext;
-        private ns1.BunifuFlatButton bunifuFlatButton2;
-        private ns1.BunifuFlatButton bunifuFlatButton1;
+        private ns1.BunifuFlatButton btnBack;
     }
 }

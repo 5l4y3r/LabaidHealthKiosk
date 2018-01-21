@@ -28,25 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PanelUserViewMain = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
-            // PanelUserViewMain
+            // tableLayoutPanel
             // 
-            this.PanelUserViewMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelUserViewMain.Location = new System.Drawing.Point(0, 0);
-            this.PanelUserViewMain.Name = "PanelUserViewMain";
-            this.PanelUserViewMain.Size = new System.Drawing.Size(824, 462);
-            this.PanelUserViewMain.TabIndex = 0;
+            this.tableLayoutPanel.ColumnCount = 1;
+            this.tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel.Name = "tableLayoutPanel";
+            this.tableLayoutPanel.RowCount = 1;
+            this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel.Size = new System.Drawing.Size(893, 532);
+            this.tableLayoutPanel.TabIndex = 0;
             // 
             // UserView
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.AutoSize = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(824, 462);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(893, 532);
             this.ControlBox = false;
-            this.Controls.Add(this.PanelUserViewMain);
+            this.Controls.Add(this.tableLayoutPanel);
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "UserView";
@@ -58,6 +63,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel PanelUserViewMain;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
     }
 }

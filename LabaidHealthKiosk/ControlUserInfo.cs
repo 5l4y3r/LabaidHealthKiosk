@@ -16,12 +16,26 @@ namespace LabaidHealthKiosk
         {
             InitializeComponent();
             Dock = DockStyle.Fill;
+           
         }
 
         private void AddUserBtn_Click(object sender, EventArgs e)
         {
-            PanelUserInfo.Controls.Clear();
-            PanelUserInfo.Controls.Add(new ControlFeedback());
+            this.Controls.Clear();
+            ControlFeedback cc = new ControlFeedback();
+            this.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
+        }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
+            }
         }
     }
 }

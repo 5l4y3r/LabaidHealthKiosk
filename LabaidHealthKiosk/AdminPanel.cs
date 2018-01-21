@@ -27,5 +27,15 @@ namespace LabaidHealthKiosk
             ManageQuestion mq = new ManageQuestion();
             mq.Show();
         }
+
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
+            }
+        }
     }
 }

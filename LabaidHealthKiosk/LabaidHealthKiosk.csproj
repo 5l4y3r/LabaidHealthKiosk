@@ -226,6 +226,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\next%281%29.png" />
+    <None Include="Resources\back%281%29.png" />
     <None Include="Resources\back.png" />
     <None Include="Resources\next.png" />
     <None Include="Resources\Nurse22.jpg" />

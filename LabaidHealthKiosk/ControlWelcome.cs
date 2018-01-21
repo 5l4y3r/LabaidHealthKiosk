@@ -17,23 +17,37 @@ namespace LabaidHealthKiosk
            
             InitializeComponent();
             Dock = DockStyle.Fill;
+          
         }
 
         private void Complainbtn_Click(object sender, EventArgs e)
         {
-            PanelWelcome.Controls.Clear();
-            PanelWelcome.Controls.Add(new ControlComplain());
+            this.Controls.Clear();
+            ControlComplain cc = new ControlComplain();
+            this.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
         }
 
         private void FeedbackBtn_Click(object sender, EventArgs e)
         {
-            PanelWelcome.Controls.Clear();
-            PanelWelcome.Controls.Add(new ControlUserInfo());
+            this.Controls.Clear();
+            ControlUserInfo cc = new ControlUserInfo();
+            this.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
         }
 
-        private void PanelWelcomeMain_Paint(object sender, PaintEventArgs e)
+        protected override CreateParams CreateParams
         {
-
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
+            }
         }
+
+
     }
 }

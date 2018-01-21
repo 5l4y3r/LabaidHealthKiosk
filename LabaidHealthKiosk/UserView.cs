@@ -18,13 +18,19 @@ namespace LabaidHealthKiosk
         {
             InitializeComponent();
             DoubleBuffered = true;
+            Dock = DockStyle.Fill;
+            
 
         }
 
         private void UserView_Load(object sender, EventArgs e)
         {
-            PanelUserViewMain.Controls.Clear();
-            PanelUserViewMain.Controls.Add(new ControlWelcome());
+            tableLayoutPanel.Controls.Clear();
+            
+            ControlWelcome cc = new ControlWelcome();
+            tableLayoutPanel.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
         }
 
         protected override CreateParams CreateParams
