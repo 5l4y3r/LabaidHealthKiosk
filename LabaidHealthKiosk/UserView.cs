@@ -27,7 +27,7 @@ namespace LabaidHealthKiosk
         {
             tableLayoutPanel.Controls.Clear();
             
-            ControlWelcome cc = new ControlWelcome();
+            ControlAdvertisement cc = new ControlAdvertisement();
             tableLayoutPanel.Controls.Add(cc);
             cc.Show();
             cc.Dock = DockStyle.Fill;

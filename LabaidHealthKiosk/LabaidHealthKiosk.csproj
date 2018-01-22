@@ -95,6 +95,12 @@
     <Compile Include="AdminPanel.Designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlAdvertisement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlAdvertisement.Designer.cs">
+      <DependentUpon>ControlAdvertisement.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlComplain.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -170,6 +176,9 @@
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ControlAdvertisement.resx">
+      <DependentUpon>ControlAdvertisement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlComplain.resx">
       <DependentUpon>ControlComplain.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,6 +235,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\labaid2.jpg" />
+    <None Include="Resources\labaid3.jpg" />
+    <None Include="Resources\labaid1.jpg" />
+    <None Include="Resources\Capture.JPG" />
+    <None Include="Resources\ss.jpg" />
     <None Include="Resources\next%281%29.png" />
     <None Include="Resources\back%281%29.png" />
     <None Include="Resources\back.png" />
@@ -269,7 +283,25 @@
       <Name>EntityClasses</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

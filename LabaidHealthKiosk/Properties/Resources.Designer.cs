@@ -93,6 +93,46 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Capture {
+            get {
+                object obj = ResourceManager.GetObject("Capture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap labaid1 {
+            get {
+                object obj = ResourceManager.GetObject("labaid1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap labaid2 {
+            get {
+                object obj = ResourceManager.GetObject("labaid2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap labaid3 {
+            get {
+                object obj = ResourceManager.GetObject("labaid3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap next {
             get {
                 object obj = ResourceManager.GetObject("next", resourceCulture);
@@ -146,6 +186,16 @@ namespace LabaidHealthKiosk.Properties {
         internal static System.Drawing.Bitmap Pad {
             get {
                 object obj = ResourceManager.GetObject("Pad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ss {
+            get {
+                object obj = ResourceManager.GetObject("ss", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

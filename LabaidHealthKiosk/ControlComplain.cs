@@ -36,5 +36,10 @@ namespace LabaidHealthKiosk
                 return handleParam;
             }
         }
+
+        private void textBoxComplain_MouseClick(object sender, MouseEventArgs e)
+        {
+            textBoxComplain.Text = "";
+        }
     }
 }
