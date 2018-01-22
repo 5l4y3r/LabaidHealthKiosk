@@ -98,10 +98,11 @@
             // 
             // tableLayoutPanel16
             // 
+            this.tableLayoutPanel16.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel16.ColumnCount = 3;
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.66816F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 42.15247F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.11659F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.24215F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.417041F));
             this.tableLayoutPanel16.Controls.Add(this.ComplainSubmitBtn, 1, 0);
             this.tableLayoutPanel16.Controls.Add(this.bunifuThinButton22, 0, 0);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -132,10 +133,10 @@
             this.ComplainSubmitBtn.IdleFillColor = System.Drawing.Color.White;
             this.ComplainSubmitBtn.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.ComplainSubmitBtn.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.ComplainSubmitBtn.Location = new System.Drawing.Point(173, 5);
+            this.ComplainSubmitBtn.Location = new System.Drawing.Point(175, 5);
             this.ComplainSubmitBtn.Margin = new System.Windows.Forms.Padding(5);
             this.ComplainSubmitBtn.Name = "ComplainSubmitBtn";
-            this.ComplainSubmitBtn.Size = new System.Drawing.Size(178, 58);
+            this.ComplainSubmitBtn.Size = new System.Drawing.Size(223, 58);
             this.ComplainSubmitBtn.TabIndex = 0;
             this.ComplainSubmitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ComplainSubmitBtn.Click += new System.EventHandler(this.ComplainSubmitBtn_Click);
@@ -162,19 +163,20 @@
             this.bunifuThinButton22.Location = new System.Drawing.Point(5, 5);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(158, 58);
+            this.bunifuThinButton22.Size = new System.Drawing.Size(160, 58);
             this.bunifuThinButton22.TabIndex = 0;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBoxComplain
             // 
-            this.textBoxComplain.BorderColor = System.Drawing.Color.SeaGreen;
+            this.textBoxComplain.BorderColor = System.Drawing.Color.Turquoise;
             this.textBoxComplain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxComplain.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxComplain.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBoxComplain.Location = new System.Drawing.Point(47, 143);
             this.textBoxComplain.Multiline = true;
             this.textBoxComplain.Name = "textBoxComplain";
+            this.textBoxComplain.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.textBoxComplain.Size = new System.Drawing.Size(350, 177);
             this.textBoxComplain.TabIndex = 1;
             this.textBoxComplain.Text = "click & Write your complain here";

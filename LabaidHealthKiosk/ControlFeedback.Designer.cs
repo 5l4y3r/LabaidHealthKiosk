@@ -36,25 +36,11 @@
             this.bunifuRating4 = new ns1.BunifuRating();
             this.bunifuRating5 = new ns1.BunifuRating();
             this.bunifuRating6 = new ns1.BunifuRating();
-            this.bunifuRating7 = new ns1.BunifuRating();
             this.labelQuestion1 = new System.Windows.Forms.Label();
             this.labelQuestion2 = new System.Windows.Forms.Label();
             this.labelQuestion3 = new System.Windows.Forms.Label();
             this.labelQuestion4 = new System.Windows.Forms.Label();
             this.labelQuestion5 = new System.Windows.Forms.Label();
-            this.labelQuestion6 = new System.Windows.Forms.Label();
-            this.labelQuestion7 = new System.Windows.Forms.Label();
-            this.labelQuestion8 = new System.Windows.Forms.Label();
-            this.labelQuestion9 = new System.Windows.Forms.Label();
-            this.labelQuestion10 = new System.Windows.Forms.Label();
-            this.labelQuestion11 = new System.Windows.Forms.Label();
-            this.labelQuestion12 = new System.Windows.Forms.Label();
-            this.bunifuRating1 = new ns1.BunifuRating();
-            this.bunifuRating8 = new ns1.BunifuRating();
-            this.bunifuRating9 = new ns1.BunifuRating();
-            this.bunifuRating10 = new ns1.BunifuRating();
-            this.bunifuRating11 = new ns1.BunifuRating();
-            this.bunifuRating12 = new ns1.BunifuRating();
             this.labelQuestionGroup = new ns1.BunifuCustomLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnBack = new ns1.BunifuFlatButton();
@@ -113,25 +99,11 @@
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating4, 2, 2);
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating5, 2, 3);
             this.tableLayoutPanel19.Controls.Add(this.bunifuRating6, 2, 4);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating7, 2, 5);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion1, 0, 0);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion2, 0, 1);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion3, 0, 2);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion4, 0, 3);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion5, 0, 4);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion6, 0, 5);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion7, 0, 6);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion8, 0, 7);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion9, 0, 8);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion10, 0, 9);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion11, 0, 10);
-            this.tableLayoutPanel19.Controls.Add(this.labelQuestion12, 0, 11);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating1, 2, 6);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating8, 2, 7);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating9, 2, 8);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating10, 2, 9);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating11, 2, 10);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating12, 2, 11);
             this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 99);
@@ -218,19 +190,6 @@
             this.bunifuRating6.TabIndex = 0;
             this.bunifuRating6.Value = 0;
             // 
-            // bunifuRating7
-            // 
-            this.bunifuRating7.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating7.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating7.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating7.Location = new System.Drawing.Point(180, 157);
-            this.bunifuRating7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating7.Name = "bunifuRating7";
-            this.bunifuRating7.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating7.TabIndex = 0;
-            this.bunifuRating7.Value = 0;
-            // 
             // labelQuestion1
             // 
             this.labelQuestion1.AutoSize = true;
@@ -281,154 +240,6 @@
             this.labelQuestion5.TabIndex = 2;
             this.labelQuestion5.Text = "Question5?";
             // 
-            // labelQuestion6
-            // 
-            this.labelQuestion6.AutoSize = true;
-            this.labelQuestion6.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion6.Location = new System.Drawing.Point(3, 155);
-            this.labelQuestion6.Name = "labelQuestion6";
-            this.labelQuestion6.Size = new System.Drawing.Size(103, 21);
-            this.labelQuestion6.TabIndex = 2;
-            this.labelQuestion6.Text = "Question6?";
-            // 
-            // labelQuestion7
-            // 
-            this.labelQuestion7.AutoSize = true;
-            this.labelQuestion7.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion7.Location = new System.Drawing.Point(3, 186);
-            this.labelQuestion7.Name = "labelQuestion7";
-            this.labelQuestion7.Size = new System.Drawing.Size(103, 21);
-            this.labelQuestion7.TabIndex = 2;
-            this.labelQuestion7.Text = "Question7?";
-            // 
-            // labelQuestion8
-            // 
-            this.labelQuestion8.AutoSize = true;
-            this.labelQuestion8.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion8.Location = new System.Drawing.Point(3, 217);
-            this.labelQuestion8.Name = "labelQuestion8";
-            this.labelQuestion8.Size = new System.Drawing.Size(103, 21);
-            this.labelQuestion8.TabIndex = 2;
-            this.labelQuestion8.Text = "Question8?";
-            // 
-            // labelQuestion9
-            // 
-            this.labelQuestion9.AutoSize = true;
-            this.labelQuestion9.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion9.Location = new System.Drawing.Point(3, 248);
-            this.labelQuestion9.Name = "labelQuestion9";
-            this.labelQuestion9.Size = new System.Drawing.Size(103, 21);
-            this.labelQuestion9.TabIndex = 2;
-            this.labelQuestion9.Text = "Question9?";
-            // 
-            // labelQuestion10
-            // 
-            this.labelQuestion10.AutoSize = true;
-            this.labelQuestion10.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion10.Location = new System.Drawing.Point(3, 279);
-            this.labelQuestion10.Name = "labelQuestion10";
-            this.labelQuestion10.Size = new System.Drawing.Size(112, 21);
-            this.labelQuestion10.TabIndex = 2;
-            this.labelQuestion10.Text = "Question10?";
-            // 
-            // labelQuestion11
-            // 
-            this.labelQuestion11.AutoSize = true;
-            this.labelQuestion11.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion11.Location = new System.Drawing.Point(3, 310);
-            this.labelQuestion11.Name = "labelQuestion11";
-            this.labelQuestion11.Size = new System.Drawing.Size(112, 21);
-            this.labelQuestion11.TabIndex = 2;
-            this.labelQuestion11.Text = "Question11?";
-            // 
-            // labelQuestion12
-            // 
-            this.labelQuestion12.AutoSize = true;
-            this.labelQuestion12.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelQuestion12.Location = new System.Drawing.Point(3, 341);
-            this.labelQuestion12.Name = "labelQuestion12";
-            this.labelQuestion12.Size = new System.Drawing.Size(112, 21);
-            this.labelQuestion12.TabIndex = 2;
-            this.labelQuestion12.Text = "Question12?";
-            // 
-            // bunifuRating1
-            // 
-            this.bunifuRating1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating1.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating1.Location = new System.Drawing.Point(180, 188);
-            this.bunifuRating1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating1.Name = "bunifuRating1";
-            this.bunifuRating1.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating1.TabIndex = 0;
-            this.bunifuRating1.Value = 0;
-            // 
-            // bunifuRating8
-            // 
-            this.bunifuRating8.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating8.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating8.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating8.Location = new System.Drawing.Point(180, 219);
-            this.bunifuRating8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating8.Name = "bunifuRating8";
-            this.bunifuRating8.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating8.TabIndex = 0;
-            this.bunifuRating8.Value = 0;
-            // 
-            // bunifuRating9
-            // 
-            this.bunifuRating9.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating9.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating9.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating9.Location = new System.Drawing.Point(180, 250);
-            this.bunifuRating9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating9.Name = "bunifuRating9";
-            this.bunifuRating9.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating9.TabIndex = 0;
-            this.bunifuRating9.Value = 0;
-            // 
-            // bunifuRating10
-            // 
-            this.bunifuRating10.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating10.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating10.Location = new System.Drawing.Point(180, 281);
-            this.bunifuRating10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating10.Name = "bunifuRating10";
-            this.bunifuRating10.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating10.TabIndex = 0;
-            this.bunifuRating10.Value = 0;
-            // 
-            // bunifuRating11
-            // 
-            this.bunifuRating11.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating11.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating11.Location = new System.Drawing.Point(180, 312);
-            this.bunifuRating11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating11.Name = "bunifuRating11";
-            this.bunifuRating11.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating11.TabIndex = 0;
-            this.bunifuRating11.Value = 0;
-            // 
-            // bunifuRating12
-            // 
-            this.bunifuRating12.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating12.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating12.Location = new System.Drawing.Point(180, 343);
-            this.bunifuRating12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating12.Name = "bunifuRating12";
-            this.bunifuRating12.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating12.TabIndex = 0;
-            this.bunifuRating12.Value = 0;
-            // 
             // labelQuestionGroup
             // 
             this.labelQuestionGroup.AutoSize = true;
@@ -451,9 +262,9 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(224, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.41699F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.00386F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.7722F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.92278F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.16216F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 58.10811F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(67, 518);
@@ -481,13 +292,13 @@
             this.btnBack.IconVisible = true;
             this.btnBack.IconZoom = 90D;
             this.btnBack.IsTab = false;
-            this.btnBack.Location = new System.Drawing.Point(3, 201);
+            this.btnBack.Location = new System.Drawing.Point(3, 157);
             this.btnBack.Name = "btnBack";
             this.btnBack.Normalcolor = System.Drawing.Color.Transparent;
             this.btnBack.OnHovercolor = System.Drawing.Color.Transparent;
             this.btnBack.OnHoverTextColor = System.Drawing.Color.White;
             this.btnBack.selected = false;
-            this.btnBack.Size = new System.Drawing.Size(61, 50);
+            this.btnBack.Size = new System.Drawing.Size(61, 56);
             this.btnBack.TabIndex = 2;
             this.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnBack.Textcolor = System.Drawing.Color.White;
@@ -504,9 +315,9 @@
             this.tableLayoutPanel2.Location = new System.Drawing.Point(666, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.41699F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.00386F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.7722F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 29.34363F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.74131F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.91506F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(69, 518);
@@ -534,13 +345,13 @@
             this.btnNext.IconVisible = true;
             this.btnNext.IconZoom = 90D;
             this.btnNext.IsTab = false;
-            this.btnNext.Location = new System.Drawing.Point(3, 201);
+            this.btnNext.Location = new System.Drawing.Point(3, 155);
             this.btnNext.Name = "btnNext";
             this.btnNext.Normalcolor = System.Drawing.Color.Transparent;
             this.btnNext.OnHovercolor = System.Drawing.Color.Transparent;
             this.btnNext.OnHoverTextColor = System.Drawing.Color.White;
             this.btnNext.selected = false;
-            this.btnNext.Size = new System.Drawing.Size(63, 50);
+            this.btnNext.Size = new System.Drawing.Size(63, 60);
             this.btnNext.TabIndex = 0;
             this.btnNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnNext.Textcolor = System.Drawing.Color.White;
@@ -579,25 +390,11 @@
         private ns1.BunifuRating bunifuRating4;
         private ns1.BunifuRating bunifuRating5;
         private ns1.BunifuRating bunifuRating6;
-        private ns1.BunifuRating bunifuRating7;
         private System.Windows.Forms.Label labelQuestion1;
         private System.Windows.Forms.Label labelQuestion2;
         private System.Windows.Forms.Label labelQuestion3;
         private System.Windows.Forms.Label labelQuestion4;
         private System.Windows.Forms.Label labelQuestion5;
-        private System.Windows.Forms.Label labelQuestion6;
-        private System.Windows.Forms.Label labelQuestion7;
-        private System.Windows.Forms.Label labelQuestion8;
-        private System.Windows.Forms.Label labelQuestion9;
-        private System.Windows.Forms.Label labelQuestion10;
-        private System.Windows.Forms.Label labelQuestion11;
-        private System.Windows.Forms.Label labelQuestion12;
-        private ns1.BunifuRating bunifuRating1;
-        private ns1.BunifuRating bunifuRating8;
-        private ns1.BunifuRating bunifuRating9;
-        private ns1.BunifuRating bunifuRating10;
-        private ns1.BunifuRating bunifuRating11;
-        private ns1.BunifuRating bunifuRating12;
         private ns1.BunifuCustomLabel labelQuestionGroup;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;

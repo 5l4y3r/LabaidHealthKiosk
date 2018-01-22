@@ -12,9 +12,11 @@ namespace LabaidHealthKiosk
 {
     public partial class ControlComplain : UserControl
     {
+        static int x = 0;
         public ControlComplain()
         {
             InitializeComponent();
+           
            
         }
 
@@ -39,7 +41,9 @@ namespace LabaidHealthKiosk
 
         private void textBoxComplain_MouseClick(object sender, MouseEventArgs e)
         {
+            if(x==0)
             textBoxComplain.Text = "";
+            x = 1;
         }
     }
 }
