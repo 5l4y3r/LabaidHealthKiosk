@@ -47,7 +47,6 @@ namespace LabaidHealthKiosk
 
 		public void CreateChartImg(string name)
 		{
-			string reportname = "report_of_" + name;
 			
 			//Exporting to Jpeg
 			string folderPath = @"C:\Kiosk Reports\";
@@ -56,7 +55,7 @@ namespace LabaidHealthKiosk
 				Directory.CreateDirectory(folderPath);
 			}
 
-			this.ChartFeedback.SaveImage(folderPath+name+".png",ChartImageFormat.Png);
+			this.ChartFeedback.SaveImage(folderPath+name+ "_" + DateTime.Now.ToString("dd_MM_yyyy")+".png",ChartImageFormat.Png);
 
 			
 				

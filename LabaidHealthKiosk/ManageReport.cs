@@ -90,7 +90,7 @@ namespace LabaidHealthKiosk
             else if (x == 4)
             {
                 string folderPath = @"C:\Kiosk Reports\";
-                System.Diagnostics.Process.Start(folderPath + "Feedback.png");
+                System.Diagnostics.Process.Start(folderPath + "Feedback"+"_"+ DateTime.Now.ToString("dd_MM_yyyy") +".png");
             }
 
         }
@@ -128,7 +128,7 @@ namespace LabaidHealthKiosk
             {
                 Directory.CreateDirectory(folderPath);
             }
-            using (FileStream stream = new FileStream(folderPath + reportname+".pdf", FileMode.Create))
+            using (FileStream stream = new FileStream(folderPath + reportname+"_"+ DateTime.Now.ToString("dd_MM_yyyy") +".pdf", FileMode.Create))
             {
                 Document pdfDoc = new Document(PageSize.A2, 10f, 10f, 10f, 0f);
                 PdfWriter.GetInstance(pdfDoc, stream);
@@ -139,7 +139,7 @@ namespace LabaidHealthKiosk
             }
 
             MessageBox.Show("Download successfull & file is saved in " + folderPath);
-            System.Diagnostics.Process.Start(folderPath+reportname+".pdf");
+            System.Diagnostics.Process.Start(folderPath+reportname+ "_" + DateTime.Now.ToString("dd_MM_yyyy") + ".pdf");
         }
 
         private void btnGraph_Click(object sender, EventArgs e)
