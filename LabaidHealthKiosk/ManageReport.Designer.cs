@@ -43,6 +43,9 @@
             this.userInfoesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.reportUserList = new LabaidHealthKiosk.ReportUserList();
             this.DataGridComplain = new System.Windows.Forms.DataGridView();
+            this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.complainGroupDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userComplainDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.complainsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.reportComplainList = new LabaidHealthKiosk.ReportComplainList();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -55,10 +58,7 @@
             this.complainsTableAdapter = new LabaidHealthKiosk.ReportComplainListTableAdapters.ComplainsTableAdapter();
             this.userInfoesTableAdapter = new LabaidHealthKiosk.ReportUserListTableAdapters.UserInfoesTableAdapter();
             this.feedbacksTableAdapter = new LabaidHealthKiosk.reportFeedbackTableAdapters.FeedbacksTableAdapter();
-            this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.complainGroupDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.userComplainDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panelGraphMain = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelReport.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DatagridFeedback)).BeginInit();
@@ -72,7 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.reportComplainList)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -95,7 +94,7 @@
             // 
             // panelReport
             // 
-            this.panelReport.Controls.Add(this.dataGridView1);
+            this.panelReport.Controls.Add(this.panelGraphMain);
             this.panelReport.Controls.Add(this.DatagridFeedback);
             this.panelReport.Controls.Add(this.DatagridUserList);
             this.panelReport.Controls.Add(this.DataGridComplain);
@@ -223,6 +222,33 @@
             this.DataGridComplain.Size = new System.Drawing.Size(344, 130);
             this.DataGridComplain.TabIndex = 0;
             // 
+            // userNameDataGridViewTextBoxColumn
+            // 
+            this.userNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.userNameDataGridViewTextBoxColumn.DataPropertyName = "UserName";
+            this.userNameDataGridViewTextBoxColumn.FillWeight = 20F;
+            this.userNameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.userNameDataGridViewTextBoxColumn.Name = "userNameDataGridViewTextBoxColumn";
+            this.userNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // complainGroupDataGridViewTextBoxColumn
+            // 
+            this.complainGroupDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.complainGroupDataGridViewTextBoxColumn.DataPropertyName = "ComplainGroup";
+            this.complainGroupDataGridViewTextBoxColumn.FillWeight = 20F;
+            this.complainGroupDataGridViewTextBoxColumn.HeaderText = "Group";
+            this.complainGroupDataGridViewTextBoxColumn.Name = "complainGroupDataGridViewTextBoxColumn";
+            this.complainGroupDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // userComplainDataGridViewTextBoxColumn
+            // 
+            this.userComplainDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.userComplainDataGridViewTextBoxColumn.DataPropertyName = "UserComplain";
+            this.userComplainDataGridViewTextBoxColumn.FillWeight = 60F;
+            this.userComplainDataGridViewTextBoxColumn.HeaderText = "Complain";
+            this.userComplainDataGridViewTextBoxColumn.Name = "userComplainDataGridViewTextBoxColumn";
+            this.userComplainDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // complainsBindingSource
             // 
             this.complainsBindingSource.DataMember = "Complains";
@@ -328,6 +354,7 @@
             this.btnGraph.TabIndex = 2;
             this.btnGraph.Text = "See Graph of Feedback";
             this.btnGraph.UseVisualStyleBackColor = true;
+            this.btnGraph.Click += new System.EventHandler(this.btnGraph_Click);
             // 
             // complainsTableAdapter
             // 
@@ -341,44 +368,12 @@
             // 
             this.feedbacksTableAdapter.ClearBeforeFill = true;
             // 
-            // userNameDataGridViewTextBoxColumn
+            // panelGraphMain
             // 
-            this.userNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.userNameDataGridViewTextBoxColumn.DataPropertyName = "UserName";
-            this.userNameDataGridViewTextBoxColumn.FillWeight = 20F;
-            this.userNameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.userNameDataGridViewTextBoxColumn.Name = "userNameDataGridViewTextBoxColumn";
-            this.userNameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // complainGroupDataGridViewTextBoxColumn
-            // 
-            this.complainGroupDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.complainGroupDataGridViewTextBoxColumn.DataPropertyName = "ComplainGroup";
-            this.complainGroupDataGridViewTextBoxColumn.FillWeight = 20F;
-            this.complainGroupDataGridViewTextBoxColumn.HeaderText = "Group";
-            this.complainGroupDataGridViewTextBoxColumn.Name = "complainGroupDataGridViewTextBoxColumn";
-            this.complainGroupDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // userComplainDataGridViewTextBoxColumn
-            // 
-            this.userComplainDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.userComplainDataGridViewTextBoxColumn.DataPropertyName = "UserComplain";
-            this.userComplainDataGridViewTextBoxColumn.FillWeight = 60F;
-            this.userComplainDataGridViewTextBoxColumn.HeaderText = "Complain";
-            this.userComplainDataGridViewTextBoxColumn.Name = "userComplainDataGridViewTextBoxColumn";
-            this.userComplainDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(245, 147);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(433, 269);
-            this.dataGridView1.TabIndex = 3;
+            this.panelGraphMain.Location = new System.Drawing.Point(270, 147);
+            this.panelGraphMain.Name = "panelGraphMain";
+            this.panelGraphMain.Size = new System.Drawing.Size(338, 278);
+            this.panelGraphMain.TabIndex = 3;
             // 
             // ManageReport
             // 
@@ -402,7 +397,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.reportComplainList)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -438,6 +432,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn userNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn complainGroupDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn userComplainDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panelGraphMain;
     }
 }

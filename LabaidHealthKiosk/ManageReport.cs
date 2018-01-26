@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -10,7 +11,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
-
+using Color = System.Drawing.Color;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace LabaidHealthKiosk
 {
@@ -28,6 +30,7 @@ namespace LabaidHealthKiosk
             DataGridComplain.Visible = false;
             DatagridFeedback.Visible = false;
             DatagridUserList.Visible = false;
+            panelGraphMain.Visible = false;
             complainsTableAdapter.Fill(reportComplainList.Complains);
             userInfoesTableAdapter.Fill(reportUserList.UserInfoes);
             feedbacksTableAdapter.Fill(reportFeedback.Feedbacks);
@@ -40,6 +43,7 @@ namespace LabaidHealthKiosk
             DataGridComplain.Visible = true;
             DatagridFeedback.Visible = false;
             DatagridUserList.Visible = false;
+            panelGraphMain.Visible = false;
             DataGridComplain.Dock = DockStyle.Fill;
 
 
@@ -51,6 +55,7 @@ namespace LabaidHealthKiosk
             DataGridComplain.Visible = false;
             DatagridFeedback.Visible = true;
             DatagridUserList.Visible = false;
+            panelGraphMain.Visible = false;
 
             DatagridFeedback.Dock = DockStyle.Fill;
         }
@@ -61,7 +66,7 @@ namespace LabaidHealthKiosk
             DataGridComplain.Visible = false;
             DatagridFeedback.Visible = false;
             DatagridUserList.Visible = true;
-
+            panelGraphMain.Visible = false;
             DatagridUserList.Dock = DockStyle.Fill;
         }
 
@@ -81,6 +86,11 @@ namespace LabaidHealthKiosk
             {
                 createPdf(DatagridUserList, "UserList");
 
+            }
+            else if (x == 4)
+            {
+                string folderPath = @"C:\Kiosk Reports\";
+                System.Diagnostics.Process.Start(folderPath + "Feedback.png");
             }
 
         }
@@ -131,6 +141,23 @@ namespace LabaidHealthKiosk
             MessageBox.Show("Download successfull & file is saved in " + folderPath);
             System.Diagnostics.Process.Start(folderPath+reportname+".pdf");
         }
-        
+
+        private void btnGraph_Click(object sender, EventArgs e)
+        {
+            x = 4;
+            DataGridComplain.Visible = false;
+            DatagridFeedback.Visible = false;
+            DatagridUserList.Visible = false;
+            panelGraphMain.Visible = true;
+            panelGraphMain.Controls.Clear();
+            panelGraphMain.Dock = DockStyle.Fill;
+            ControlGraph cc = new ControlGraph();
+            panelGraphMain.Controls.Add(cc);
+            cc.Show();
+            cc.Dock = DockStyle.Fill;
+            MessageBox.Show(@"Download successfull & file is saved in C:\Kiosk Reports\ ");
+        }
+
+       
     }
 }
