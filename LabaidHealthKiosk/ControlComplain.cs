@@ -13,21 +13,28 @@ namespace LabaidHealthKiosk
     public partial class ControlComplain : UserControl
     {
         static int x = 0;
-        public ControlComplain()
+        static string uName = "";
+        public ControlComplain(string s)
         {
             InitializeComponent();
-           
-           
+            uName = s;
+
         }
 
         private void ComplainSubmitBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thank you");
+            string s = textBoxComplain.Text;
+            string s2 = comboCategory.Text;
+
+            BusinessLayer.ComplainClass.SubmitComplain(uName,s2,s);
+
+            MessageBox.Show("We will Sove this problem Soon");
             this.Controls.Clear();
             ControlWelcome cc = new ControlWelcome();
             this.Controls.Add(cc);
             cc.Show();
             cc.Dock = DockStyle.Fill;
+
         }
         protected override CreateParams CreateParams
         {
@@ -44,6 +51,12 @@ namespace LabaidHealthKiosk
             if(x==0)
             textBoxComplain.Text = "";
             x = 1;
+        }
+
+        private void btnAnotherComplain_Click(object sender, EventArgs e)
+        {
+
+            textBoxComplain.Text = "";
         }
     }
 }

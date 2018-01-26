@@ -37,5 +37,11 @@ namespace LabaidHealthKiosk
                 return handleParam;
             }
         }
+
+        private void MangeReportBtn_Click(object sender, EventArgs e)
+        {
+            ManageReport m = new ManageReport();
+            m.Show();
+        }
     }
 }

@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlComplain));
             this.PanelComplain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboCategory = new System.Windows.Forms.ComboBox();
+            this.textBoxComplain = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
             this.ComplainSubmitBtn = new ns1.BunifuThinButton2();
-            this.bunifuThinButton22 = new ns1.BunifuThinButton2();
-            this.textBoxComplain = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.btnAnotherComplain = new ns1.BunifuThinButton2();
             this.PanelComplain.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel16.SuspendLayout();
@@ -64,7 +64,7 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel7.Controls.Add(this.comboBox1, 1, 1);
+            this.tableLayoutPanel7.Controls.Add(this.comboCategory, 1, 1);
             this.tableLayoutPanel7.Controls.Add(this.textBoxComplain, 1, 3);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(267, 3);
@@ -77,24 +77,40 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(446, 323);
             this.tableLayoutPanel7.TabIndex = 0;
             // 
-            // comboBox1
+            // comboCategory
             // 
-            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.comboBox1.ForeColor = System.Drawing.Color.Navy;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboCategory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboCategory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboCategory.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.comboCategory.ForeColor = System.Drawing.Color.Navy;
+            this.comboCategory.FormattingEnabled = true;
+            this.comboCategory.Items.AddRange(new object[] {
             "Doctor",
             "Nurse",
             "Accommodation",
             "HelpDesk",
             "Billing"});
-            this.comboBox1.Location = new System.Drawing.Point(47, 67);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(350, 29);
-            this.comboBox1.TabIndex = 0;
-            this.comboBox1.Text = "Select Category";
+            this.comboCategory.Location = new System.Drawing.Point(47, 67);
+            this.comboCategory.Name = "comboCategory";
+            this.comboCategory.Size = new System.Drawing.Size(350, 29);
+            this.comboCategory.TabIndex = 0;
+            this.comboCategory.Text = "Select Category";
+            // 
+            // textBoxComplain
+            // 
+            this.textBoxComplain.BorderColor = System.Drawing.Color.Turquoise;
+            this.textBoxComplain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxComplain.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxComplain.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBoxComplain.Location = new System.Drawing.Point(47, 143);
+            this.textBoxComplain.Multiline = true;
+            this.textBoxComplain.Name = "textBoxComplain";
+            this.textBoxComplain.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.textBoxComplain.Size = new System.Drawing.Size(350, 177);
+            this.textBoxComplain.TabIndex = 1;
+            this.textBoxComplain.Text = "click & Write your complain here";
+            this.textBoxComplain.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxComplain.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBoxComplain_MouseClick);
             // 
             // tableLayoutPanel16
             // 
@@ -104,7 +120,7 @@
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.24215F));
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.417041F));
             this.tableLayoutPanel16.Controls.Add(this.ComplainSubmitBtn, 1, 0);
-            this.tableLayoutPanel16.Controls.Add(this.bunifuThinButton22, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.btnAnotherComplain, 0, 0);
             this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel16.Location = new System.Drawing.Point(267, 332);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
@@ -141,53 +157,39 @@
             this.ComplainSubmitBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ComplainSubmitBtn.Click += new System.EventHandler(this.ComplainSubmitBtn_Click);
             // 
-            // bunifuThinButton22
+            // btnAnotherComplain
             // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Orange;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Gold;
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Another Complain";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.Goldenrod;
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.Goldenrod;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.Red;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(5, 5);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(160, 58);
-            this.bunifuThinButton22.TabIndex = 0;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBoxComplain
-            // 
-            this.textBoxComplain.BorderColor = System.Drawing.Color.Turquoise;
-            this.textBoxComplain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxComplain.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxComplain.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBoxComplain.Location = new System.Drawing.Point(47, 143);
-            this.textBoxComplain.Multiline = true;
-            this.textBoxComplain.Name = "textBoxComplain";
-            this.textBoxComplain.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBoxComplain.Size = new System.Drawing.Size(350, 177);
-            this.textBoxComplain.TabIndex = 1;
-            this.textBoxComplain.Text = "click & Write your complain here";
-            this.textBoxComplain.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxComplain.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBoxComplain_MouseClick);
+            this.btnAnotherComplain.ActiveBorderThickness = 1;
+            this.btnAnotherComplain.ActiveCornerRadius = 20;
+            this.btnAnotherComplain.ActiveFillColor = System.Drawing.Color.Orange;
+            this.btnAnotherComplain.ActiveForecolor = System.Drawing.Color.White;
+            this.btnAnotherComplain.ActiveLineColor = System.Drawing.Color.Gold;
+            this.btnAnotherComplain.BackColor = System.Drawing.Color.Transparent;
+            this.btnAnotherComplain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAnotherComplain.BackgroundImage")));
+            this.btnAnotherComplain.ButtonText = "Another Complain";
+            this.btnAnotherComplain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAnotherComplain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnAnotherComplain.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnotherComplain.ForeColor = System.Drawing.Color.Goldenrod;
+            this.btnAnotherComplain.IdleBorderThickness = 1;
+            this.btnAnotherComplain.IdleCornerRadius = 20;
+            this.btnAnotherComplain.IdleFillColor = System.Drawing.Color.White;
+            this.btnAnotherComplain.IdleForecolor = System.Drawing.Color.Goldenrod;
+            this.btnAnotherComplain.IdleLineColor = System.Drawing.Color.Red;
+            this.btnAnotherComplain.Location = new System.Drawing.Point(5, 5);
+            this.btnAnotherComplain.Margin = new System.Windows.Forms.Padding(5);
+            this.btnAnotherComplain.Name = "btnAnotherComplain";
+            this.btnAnotherComplain.Size = new System.Drawing.Size(160, 58);
+            this.btnAnotherComplain.TabIndex = 0;
+            this.btnAnotherComplain.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAnotherComplain.Click += new System.EventHandler(this.btnAnotherComplain_Click);
             // 
             // ControlComplain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
+            this.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.appledoc;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.PanelComplain);
             this.Name = "ControlComplain";
@@ -204,10 +206,10 @@
 
         private System.Windows.Forms.TableLayoutPanel PanelComplain;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboCategory;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private ns1.BunifuThinButton2 ComplainSubmitBtn;
-        private ns1.BunifuThinButton2 bunifuThinButton22;
+        private ns1.BunifuThinButton2 btnAnotherComplain;
         private WindowsFormsControlLibrary1.BunifuCustomTextbox textBoxComplain;
     }
 }

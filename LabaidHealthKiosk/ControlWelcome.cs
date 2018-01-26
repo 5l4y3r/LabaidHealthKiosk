@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace LabaidHealthKiosk
 {
+    
     public partial class ControlWelcome : UserControl
     {
+        public static int x = 0;
         public ControlWelcome()
         {
            
@@ -22,20 +24,49 @@ namespace LabaidHealthKiosk
 
         private void Complainbtn_Click(object sender, EventArgs e)
         {
-            this.Controls.Clear();
-            ControlComplain cc = new ControlComplain();
-            this.Controls.Add(cc);
-            cc.Show();
-            cc.Dock = DockStyle.Fill;
+            if (x == 0)
+            {
+                x = 1;
+                this.Controls.Clear();
+                ControlUserInfo cc = new ControlUserInfo(x);
+
+                this.Controls.Add(cc);
+                cc.Show();
+                cc.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                this.Controls.Clear();
+                ControlComplain cc = new ControlComplain("");
+                this.Controls.Add(cc);
+                cc.Show();
+                cc.Dock = DockStyle.Fill;
+
+
+            }
         }
 
         private void FeedbackBtn_Click(object sender, EventArgs e)
         {
-            this.Controls.Clear();
-            ControlUserInfo cc = new ControlUserInfo();
-            this.Controls.Add(cc);
-            cc.Show();
-            cc.Dock = DockStyle.Fill;
+            if (x == 0)
+            {
+                x = 2;
+                this.Controls.Clear();
+                ControlUserInfo cc = new ControlUserInfo(x);
+                this.Controls.Add(cc);
+                cc.Show();
+                cc.Dock = DockStyle.Fill;
+            }
+            else
+            {
+                this.Controls.Clear();
+                ControlFeedback cc = new ControlFeedback("");
+                this.Controls.Add(cc);
+                cc.Show();
+                cc.Dock = DockStyle.Fill;
+
+
+            }
         }
 
         protected override CreateParams CreateParams

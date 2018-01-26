@@ -32,11 +32,11 @@
             this.PanelUserInfo = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuTextbox3 = new ns1.BunifuTextbox();
+            this.txtRelation = new ns1.BunifuTextbox();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuTextbox1 = new ns1.BunifuTextbox();
+            this.txtName = new ns1.BunifuTextbox();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuTextbox2 = new ns1.BunifuTextbox();
+            this.txtContact = new ns1.BunifuTextbox();
             this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
             this.AddUserBtn = new ns1.BunifuTileButton();
             this.PanelUserInfo.SuspendLayout();
@@ -89,7 +89,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.69355F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.88172F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.29032F));
-            this.tableLayoutPanel3.Controls.Add(this.bunifuTextbox3, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.txtRelation, 1, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 316);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -100,22 +100,23 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(639, 70);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
-            // bunifuTextbox3
+            // txtRelation
             // 
-            this.bunifuTextbox3.BackColor = System.Drawing.Color.White;
-            this.bunifuTextbox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox3.BackgroundImage")));
-            this.bunifuTextbox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextbox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuTextbox3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuTextbox3.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuTextbox3.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox3.Icon")));
-            this.bunifuTextbox3.Location = new System.Drawing.Point(77, 16);
-            this.bunifuTextbox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuTextbox3.Name = "bunifuTextbox3";
-            this.bunifuTextbox3.Size = new System.Drawing.Size(325, 35);
-            this.bunifuTextbox3.TabIndex = 0;
-            this.bunifuTextbox3.text = "Relation with patient";
+            this.txtRelation.BackColor = System.Drawing.Color.White;
+            this.txtRelation.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtRelation.BackgroundImage")));
+            this.txtRelation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txtRelation.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtRelation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtRelation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRelation.ForeColor = System.Drawing.Color.Teal;
+            this.txtRelation.Icon = ((System.Drawing.Image)(resources.GetObject("txtRelation.Icon")));
+            this.txtRelation.Location = new System.Drawing.Point(77, 16);
+            this.txtRelation.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRelation.Name = "txtRelation";
+            this.txtRelation.Size = new System.Drawing.Size(325, 35);
+            this.txtRelation.TabIndex = 0;
+            this.txtRelation.text = "Relation with patient";
+            this.txtRelation.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtRelation_MouseClick);
             // 
             // tableLayoutPanel13
             // 
@@ -123,7 +124,7 @@
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.42473F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.6129F));
             this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.82796F));
-            this.tableLayoutPanel13.Controls.Add(this.bunifuTextbox1, 1, 1);
+            this.tableLayoutPanel13.Controls.Add(this.txtName, 1, 1);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 153);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
@@ -134,22 +135,23 @@
             this.tableLayoutPanel13.Size = new System.Drawing.Size(639, 76);
             this.tableLayoutPanel13.TabIndex = 1;
             // 
-            // bunifuTextbox1
+            // txtName
             // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.White;
-            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
-            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextbox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuTextbox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(76, 32);
-            this.bunifuTextbox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(324, 32);
-            this.bunifuTextbox1.TabIndex = 0;
-            this.bunifuTextbox1.text = "Your Name";
+            this.txtName.BackColor = System.Drawing.Color.White;
+            this.txtName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtName.BackgroundImage")));
+            this.txtName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtName.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.ForeColor = System.Drawing.Color.Teal;
+            this.txtName.Icon = ((System.Drawing.Image)(resources.GetObject("txtName.Icon")));
+            this.txtName.Location = new System.Drawing.Point(76, 32);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(324, 32);
+            this.txtName.TabIndex = 0;
+            this.txtName.text = "Your Name/MRN no";
+            this.txtName.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtName_MouseClick);
             // 
             // tableLayoutPanel14
             // 
@@ -157,7 +159,7 @@
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.55914F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.88172F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36.42473F));
-            this.tableLayoutPanel14.Controls.Add(this.bunifuTextbox2, 1, 1);
+            this.tableLayoutPanel14.Controls.Add(this.txtContact, 1, 1);
             this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 235);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
@@ -168,22 +170,23 @@
             this.tableLayoutPanel14.Size = new System.Drawing.Size(639, 75);
             this.tableLayoutPanel14.TabIndex = 2;
             // 
-            // bunifuTextbox2
+            // txtContact
             // 
-            this.bunifuTextbox2.BackColor = System.Drawing.Color.White;
-            this.bunifuTextbox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.BackgroundImage")));
-            this.bunifuTextbox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextbox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuTextbox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuTextbox2.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
-            this.bunifuTextbox2.Location = new System.Drawing.Point(76, 19);
-            this.bunifuTextbox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.bunifuTextbox2.Name = "bunifuTextbox2";
-            this.bunifuTextbox2.Size = new System.Drawing.Size(325, 37);
-            this.bunifuTextbox2.TabIndex = 0;
-            this.bunifuTextbox2.text = "Contact Number";
+            this.txtContact.BackColor = System.Drawing.Color.White;
+            this.txtContact.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtContact.BackgroundImage")));
+            this.txtContact.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txtContact.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtContact.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtContact.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContact.ForeColor = System.Drawing.Color.Teal;
+            this.txtContact.Icon = ((System.Drawing.Image)(resources.GetObject("txtContact.Icon")));
+            this.txtContact.Location = new System.Drawing.Point(76, 19);
+            this.txtContact.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(325, 37);
+            this.txtContact.TabIndex = 0;
+            this.txtContact.text = "Contact Number";
+            this.txtContact.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtContact_MouseClick);
             // 
             // tableLayoutPanel15
             // 
@@ -196,8 +199,8 @@
             this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 392);
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
             this.tableLayoutPanel15.RowCount = 2;
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.72727F));
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.27273F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.05263F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.94737F));
             this.tableLayoutPanel15.Size = new System.Drawing.Size(639, 95);
             this.tableLayoutPanel15.TabIndex = 3;
             // 
@@ -218,7 +221,7 @@
             this.AddUserBtn.Location = new System.Drawing.Point(164, 6);
             this.AddUserBtn.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.AddUserBtn.Name = "AddUserBtn";
-            this.AddUserBtn.Size = new System.Drawing.Size(141, 57);
+            this.AddUserBtn.Size = new System.Drawing.Size(141, 45);
             this.AddUserBtn.TabIndex = 0;
             this.AddUserBtn.Click += new System.EventHandler(this.AddUserBtn_Click);
             // 
@@ -248,11 +251,11 @@
         private System.Windows.Forms.TableLayoutPanel PanelUserInfo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private ns1.BunifuTextbox bunifuTextbox3;
+        private ns1.BunifuTextbox txtRelation;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
-        private ns1.BunifuTextbox bunifuTextbox1;
+        private ns1.BunifuTextbox txtName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
-        private ns1.BunifuTextbox bunifuTextbox2;
+        private ns1.BunifuTextbox txtContact;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private ns1.BunifuTileButton AddUserBtn;
     }

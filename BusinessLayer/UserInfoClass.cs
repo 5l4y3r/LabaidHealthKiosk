@@ -9,15 +9,15 @@ namespace BusinessLayer
 {
    public class UserInfoClass
     {
-        public static void AddUser(string Uname, string UGender,int UAge)
+        public static void AddUser(string Uname, string UMobile,string URelation)
         {
             var context = new ContextDb();
 
             context.UserInfos.Add(new UserInfo()
             {
                 UserName = Uname,
-                Gender = UGender,
-                Age = UAge
+                MobileNo = UMobile,
+                Relation = URelation
 
             });
             context.SaveChanges();

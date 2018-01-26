@@ -70,6 +70,7 @@
             this.MangeReportBtn.TabIndex = 2;
             this.MangeReportBtn.Text = "Manage Reports";
             this.MangeReportBtn.UseVisualStyleBackColor = false;
+            this.MangeReportBtn.Click += new System.EventHandler(this.MangeReportBtn_Click);
             // 
             // ManageVBtn
             // 

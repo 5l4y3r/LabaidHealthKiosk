@@ -46,6 +46,9 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
       <Private>True</Private>
@@ -95,6 +98,11 @@
     <Compile Include="AdminPanel.Designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="advertiseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>advertiseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ControlAdvertisement.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -136,6 +144,12 @@
     <Compile Include="ManageQuestion.Designer.cs">
       <DependentUpon>ManageQuestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageReport.Designer.cs">
+      <DependentUpon>ManageReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="MaterialsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +172,26 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QuestionGroupDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportComplainList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportComplainList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reportFeedback.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportFeedback.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportFeedbackList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportFeedbackList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportUserList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportUserList.xsd</DependentUpon>
     </Compile>
     <Compile Include="Start.cs">
       <SubType>Form</SubType>
@@ -194,6 +228,9 @@
     <EmbeddedResource Include="ManageQuestion.resx">
       <DependentUpon>ManageQuestion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageReport.resx">
+      <DependentUpon>ManageReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MaterialsForm.resx">
       <DependentUpon>MaterialsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,6 +245,17 @@
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="advertiseDataSet.xsc">
+      <DependentUpon>advertiseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="advertiseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>advertiseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="advertiseDataSet.xss">
+      <DependentUpon>advertiseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="LabaidHealthKioskDataSet.xsc">
       <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
     </None>
@@ -235,6 +283,50 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="ReportComplainList.xsc">
+      <DependentUpon>ReportComplainList.xsd</DependentUpon>
+    </None>
+    <None Include="ReportComplainList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportComplainList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReportComplainList.xss">
+      <DependentUpon>ReportComplainList.xsd</DependentUpon>
+    </None>
+    <None Include="reportFeedback.xsc">
+      <DependentUpon>reportFeedback.xsd</DependentUpon>
+    </None>
+    <None Include="reportFeedback.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reportFeedback.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reportFeedback.xss">
+      <DependentUpon>reportFeedback.xsd</DependentUpon>
+    </None>
+    <None Include="ReportFeedbackList.xsc">
+      <DependentUpon>ReportFeedbackList.xsd</DependentUpon>
+    </None>
+    <None Include="ReportFeedbackList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportFeedbackList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReportFeedbackList.xss">
+      <DependentUpon>ReportFeedbackList.xsd</DependentUpon>
+    </None>
+    <None Include="ReportUserList.xsc">
+      <DependentUpon>ReportUserList.xsd</DependentUpon>
+    </None>
+    <None Include="ReportUserList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportUserList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReportUserList.xss">
+      <DependentUpon>ReportUserList.xsd</DependentUpon>
+    </None>
     <None Include="Resources\labaid2.jpg" />
     <None Include="Resources\labaid3.jpg" />
     <None Include="Resources\labaid1.jpg" />

@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="AdvertiseClass.cs" />
     <Compile Include="AnswerClass.cs" />
+    <Compile Include="ComplainClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuestionClass.cs" />
     <Compile Include="UserInfoClass.cs" />

@@ -15,27 +15,9 @@ namespace EntityClasses
         public string UserName { get; set; }
 
         [DefaultValue("NULL")]
-        public string ComplainQA1 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA2 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA3 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA4 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA5 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA6 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA7 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA8 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA9 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA10 { get; set; }
-        [DefaultValue("NULL")]
-        public string ComplainQA11 { get; set; }
+        public string UserComplain { get; set; }
 
+        [DefaultValue("NULL")]
+        public string ComplainGroup { get; set; }
     }
 }

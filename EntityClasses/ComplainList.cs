@@ -12,7 +12,7 @@ namespace EntityClasses
 
         public int? Id { get; set; }
         public string ComplainCategory { get; set; }
-        public string ComplainQues { get; set; }
+        
 
 
     }
