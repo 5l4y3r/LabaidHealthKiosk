@@ -211,20 +211,22 @@
             // 
             this.txtRelation.BackColor = System.Drawing.Color.Transparent;
             this.txtRelation.BorderRadius = 5;
+            this.txtRelation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtRelation.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtRelation.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRelation.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRelation.ForeColor = System.Drawing.Color.White;
             this.txtRelation.Items = new string[] {
         "Patient",
         "Patient\'s relative"};
-            this.txtRelation.Location = new System.Drawing.Point(78, 16);
-            this.txtRelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRelation.Location = new System.Drawing.Point(82, 20);
+            this.txtRelation.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.txtRelation.Name = "txtRelation";
             this.txtRelation.NomalColor = System.Drawing.Color.Teal;
-            this.txtRelation.onHoverColor = System.Drawing.Color.PaleGreen;
+            this.txtRelation.onHoverColor = System.Drawing.Color.SpringGreen;
             this.txtRelation.selectedIndex = -1;
-            this.txtRelation.Size = new System.Drawing.Size(323, 35);
+            this.txtRelation.Size = new System.Drawing.Size(315, 27);
             this.txtRelation.TabIndex = 1;
+            this.txtRelation.MouseHover += new System.EventHandler(this.txtRelation_MouseHover);
             // 
             // ControlUserInfo
             // 

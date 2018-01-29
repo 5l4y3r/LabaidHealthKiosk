@@ -54,15 +54,15 @@ namespace LabaidHealthKiosk
             }
         }
 
-         int s1 = 0;
-         int s2 = 0;
-         int s3 = 0;
+         private int s1 = 0;
+         private int s2 = 0;
+         //private int s3 = 0;
 
         private void txtName_MouseClick(object sender, MouseEventArgs e)
         {
             if (s1 == 0)
             {
-                txtName.text = "";
+                txtName.text = " ";
                 s1 = 1;
             }
 
@@ -72,19 +72,15 @@ namespace LabaidHealthKiosk
         {
             if (s2 == 0)
             {
-                txtContact.text = "";
+                txtContact.text = " ";
                 s2 = 1;
             }
 
         }
 
-        private void txtRelation_MouseClick(object sender, MouseEventArgs e)
+        private void txtRelation_MouseHover(object sender, EventArgs e)
         {
-            if (s3 == 0)
-            {
-               
-                s3 = 1;
-            }
+           
         }
     }
 }

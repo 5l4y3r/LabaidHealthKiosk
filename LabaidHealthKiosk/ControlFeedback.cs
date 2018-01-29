@@ -60,12 +60,6 @@ namespace LabaidHealthKiosk
 
         }
 
-        private void btnNext_MouseHover(object sender, EventArgs e)
-        {
-            btnNext.Iconimage = ((System.Drawing.Image)(Properties.Resources.next_1_));
-        }
-
-        
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -73,10 +67,7 @@ namespace LabaidHealthKiosk
             
         }
 
-        private void btnBack_MouseHover(object sender, EventArgs e)
-        {
-            btnBack.Iconimage = ((System.Drawing.Image)(Properties.Resources.back_1_));
-        }
+        
 
         private void FeedbackComposing()
         {
