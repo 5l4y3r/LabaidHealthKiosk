@@ -122,6 +122,12 @@
     <Compile Include="ControlFeedback.Designer.cs">
       <DependentUpon>ControlFeedback.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlFinalFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlFinalFeedback.Designer.cs">
+      <DependentUpon>ControlFinalFeedback.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlGraph.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -225,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ControlFeedback.resx">
       <DependentUpon>ControlFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlFinalFeedback.resx">
+      <DependentUpon>ControlFinalFeedback.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlGraph.resx">
       <DependentUpon>ControlGraph.cs</DependentUpon>

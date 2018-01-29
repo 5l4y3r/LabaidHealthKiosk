@@ -25,7 +25,7 @@ namespace LabaidHealthKiosk
 
             this.questionGroupsTableAdapter.Fill(this.questionGroupDataSet.QuestionGroups);
 
-            var con = new ContextDb();
+           
 
 
           
@@ -42,12 +42,13 @@ namespace LabaidHealthKiosk
 
         private void RefreshBtn_Click(object sender, EventArgs e)
         {
-           // this.questionGroupsTableAdapter.Fill(this.questionGroupDataSet.QuestionGroups);
+            this.questionGroupsTableAdapter.Fill(this.questionGroupDataSet.QuestionGroups);
             var con = new ContextDb();
             tempString = QuestionGroupComboBox.Text;
             var tempData = con.Questions.Where(t => t.QuestionGroup == tempString);
 
             QuestionGridView.DataSource = tempData.ToList();
+
 
         }
 

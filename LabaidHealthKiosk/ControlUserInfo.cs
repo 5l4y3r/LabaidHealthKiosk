@@ -82,7 +82,7 @@ namespace LabaidHealthKiosk
         {
             if (s3 == 0)
             {
-                txtRelation.text = "";
+               
                 s3 = 1;
             }
         }

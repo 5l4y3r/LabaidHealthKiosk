@@ -35,24 +35,23 @@
             this.labaidHealthKioskDataSet = new LabaidHealthKiosk.LabaidHealthKioskDataSet();
             this.label2 = new System.Windows.Forms.Label();
             this.QuestionGridView = new System.Windows.Forms.DataGridView();
+            this.quesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.questionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.questionDataSet = new LabaidHealthKiosk.QuestionDataSet();
             this.AddQBtn = new System.Windows.Forms.Button();
-            this.DeleteBtn = new System.Windows.Forms.Button();
             this.QuestionGroupTxt = new System.Windows.Forms.TextBox();
             this.AddQGroupBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.RefreshBtn = new System.Windows.Forms.Button();
             this.questionGroupsTableAdapter = new LabaidHealthKiosk.QuestionGroupDataSetTableAdapters.QuestionGroupsTableAdapter();
             this.QuestionTxtBox = new System.Windows.Forms.TextBox();
-            this.questionDataSet = new LabaidHealthKiosk.QuestionDataSet();
-            this.questionsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.questionsTableAdapter = new LabaidHealthKiosk.QuestionDataSetTableAdapters.QuestionsTableAdapter();
-            this.quesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.labaidHealthKioskDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // QuestionGroupComboBox
@@ -109,6 +108,24 @@
             this.QuestionGridView.Size = new System.Drawing.Size(593, 200);
             this.QuestionGridView.TabIndex = 3;
             // 
+            // quesDataGridViewTextBoxColumn
+            // 
+            this.quesDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.quesDataGridViewTextBoxColumn.DataPropertyName = "Ques";
+            this.quesDataGridViewTextBoxColumn.HeaderText = "Questions";
+            this.quesDataGridViewTextBoxColumn.Name = "quesDataGridViewTextBoxColumn";
+            this.quesDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // questionsBindingSource
+            // 
+            this.questionsBindingSource.DataMember = "Questions";
+            this.questionsBindingSource.DataSource = this.questionDataSet;
+            // 
+            // questionDataSet
+            // 
+            this.questionDataSet.DataSetName = "QuestionDataSet";
+            this.questionDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // AddQBtn
             // 
             this.AddQBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -120,17 +137,6 @@
             this.AddQBtn.Text = "Add Question";
             this.AddQBtn.UseVisualStyleBackColor = false;
             this.AddQBtn.Click += new System.EventHandler(this.AddQBtn_Click);
-            // 
-            // DeleteBtn
-            // 
-            this.DeleteBtn.BackColor = System.Drawing.Color.Red;
-            this.DeleteBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteBtn.Location = new System.Drawing.Point(616, 241);
-            this.DeleteBtn.Name = "DeleteBtn";
-            this.DeleteBtn.Size = new System.Drawing.Size(89, 50);
-            this.DeleteBtn.TabIndex = 5;
-            this.DeleteBtn.Text = "Delete Question";
-            this.DeleteBtn.UseVisualStyleBackColor = false;
             // 
             // QuestionGroupTxt
             // 
@@ -166,7 +172,7 @@
             // RefreshBtn
             // 
             this.RefreshBtn.BackColor = System.Drawing.Color.Transparent;
-           
+            this.RefreshBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.RefreshBtn.Location = new System.Drawing.Point(593, 101);
             this.RefreshBtn.Name = "RefreshBtn";
             this.RefreshBtn.Size = new System.Drawing.Size(43, 40);
@@ -186,27 +192,9 @@
             this.QuestionTxtBox.Size = new System.Drawing.Size(506, 33);
             this.QuestionTxtBox.TabIndex = 10;
             // 
-            // questionDataSet
-            // 
-            this.questionDataSet.DataSetName = "QuestionDataSet";
-            this.questionDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // questionsBindingSource
-            // 
-            this.questionsBindingSource.DataMember = "Questions";
-            this.questionsBindingSource.DataSource = this.questionDataSet;
-            // 
             // questionsTableAdapter
             // 
             this.questionsTableAdapter.ClearBeforeFill = true;
-            // 
-            // quesDataGridViewTextBoxColumn
-            // 
-            this.quesDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.quesDataGridViewTextBoxColumn.DataPropertyName = "Ques";
-            this.quesDataGridViewTextBoxColumn.HeaderText = "Questions";
-            this.quesDataGridViewTextBoxColumn.Name = "quesDataGridViewTextBoxColumn";
-            this.quesDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // ManageQuestion
             // 
@@ -218,7 +206,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.AddQGroupBtn);
             this.Controls.Add(this.QuestionGroupTxt);
-            this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.AddQBtn);
             this.Controls.Add(this.QuestionGridView);
             this.Controls.Add(this.label2);
@@ -230,8 +217,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labaidHealthKioskDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,7 +231,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView QuestionGridView;
         private System.Windows.Forms.Button AddQBtn;
-        private System.Windows.Forms.Button DeleteBtn;
         private System.Windows.Forms.TextBox QuestionGroupTxt;
         private System.Windows.Forms.Button AddQGroupBtn;
         private System.Windows.Forms.Label label3;

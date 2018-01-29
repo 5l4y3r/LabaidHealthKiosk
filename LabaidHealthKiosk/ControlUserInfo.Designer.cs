@@ -32,13 +32,13 @@
             this.PanelUserInfo = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtRelation = new ns1.BunifuTextbox();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.txtName = new ns1.BunifuTextbox();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.txtContact = new ns1.BunifuTextbox();
             this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
             this.AddUserBtn = new ns1.BunifuTileButton();
+            this.txtRelation = new ns1.BunifuDropdown();
             this.PanelUserInfo.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -99,24 +99,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(639, 70);
             this.tableLayoutPanel3.TabIndex = 2;
-            // 
-            // txtRelation
-            // 
-            this.txtRelation.BackColor = System.Drawing.Color.White;
-            this.txtRelation.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtRelation.BackgroundImage")));
-            this.txtRelation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.txtRelation.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtRelation.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtRelation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRelation.ForeColor = System.Drawing.Color.Teal;
-            this.txtRelation.Icon = ((System.Drawing.Image)(resources.GetObject("txtRelation.Icon")));
-            this.txtRelation.Location = new System.Drawing.Point(77, 16);
-            this.txtRelation.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtRelation.Name = "txtRelation";
-            this.txtRelation.Size = new System.Drawing.Size(325, 35);
-            this.txtRelation.TabIndex = 0;
-            this.txtRelation.text = "Relation with patient";
-            this.txtRelation.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtRelation_MouseClick);
             // 
             // tableLayoutPanel13
             // 
@@ -225,6 +207,25 @@
             this.AddUserBtn.TabIndex = 0;
             this.AddUserBtn.Click += new System.EventHandler(this.AddUserBtn_Click);
             // 
+            // txtRelation
+            // 
+            this.txtRelation.BackColor = System.Drawing.Color.Transparent;
+            this.txtRelation.BorderRadius = 5;
+            this.txtRelation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtRelation.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRelation.ForeColor = System.Drawing.Color.White;
+            this.txtRelation.Items = new string[] {
+        "Patient",
+        "Patient\'s relative"};
+            this.txtRelation.Location = new System.Drawing.Point(78, 16);
+            this.txtRelation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRelation.Name = "txtRelation";
+            this.txtRelation.NomalColor = System.Drawing.Color.Teal;
+            this.txtRelation.onHoverColor = System.Drawing.Color.PaleGreen;
+            this.txtRelation.selectedIndex = -1;
+            this.txtRelation.Size = new System.Drawing.Size(323, 35);
+            this.txtRelation.TabIndex = 1;
+            // 
             // ControlUserInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,12 +252,12 @@
         private System.Windows.Forms.TableLayoutPanel PanelUserInfo;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private ns1.BunifuTextbox txtRelation;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
         private ns1.BunifuTextbox txtName;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel14;
         private ns1.BunifuTextbox txtContact;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private ns1.BunifuTileButton AddUserBtn;
+        private ns1.BunifuDropdown txtRelation;
     }
 }

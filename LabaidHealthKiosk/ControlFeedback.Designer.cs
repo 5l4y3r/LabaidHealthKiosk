@@ -31,11 +31,11 @@
             this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
-            this.bunifuRating2 = new ns1.BunifuRating();
-            this.bunifuRating3 = new ns1.BunifuRating();
-            this.bunifuRating4 = new ns1.BunifuRating();
-            this.bunifuRating5 = new ns1.BunifuRating();
-            this.bunifuRating6 = new ns1.BunifuRating();
+            this.RatingQ1 = new ns1.BunifuRating();
+            this.RatingQ2 = new ns1.BunifuRating();
+            this.RatingQ3 = new ns1.BunifuRating();
+            this.RatingQ4 = new ns1.BunifuRating();
+            this.RatingQ5 = new ns1.BunifuRating();
             this.labelQuestion1 = new System.Windows.Forms.Label();
             this.labelQuestion2 = new System.Windows.Forms.Label();
             this.labelQuestion3 = new System.Windows.Forms.Label();
@@ -94,11 +94,11 @@
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.33894F));
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.521008F));
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.85994F));
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating2, 2, 0);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating3, 2, 1);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating4, 2, 2);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating5, 2, 3);
-            this.tableLayoutPanel19.Controls.Add(this.bunifuRating6, 2, 4);
+            this.tableLayoutPanel19.Controls.Add(this.RatingQ1, 2, 0);
+            this.tableLayoutPanel19.Controls.Add(this.RatingQ2, 2, 1);
+            this.tableLayoutPanel19.Controls.Add(this.RatingQ3, 2, 2);
+            this.tableLayoutPanel19.Controls.Add(this.RatingQ4, 2, 3);
+            this.tableLayoutPanel19.Controls.Add(this.RatingQ5, 2, 4);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion1, 0, 0);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion2, 0, 1);
             this.tableLayoutPanel19.Controls.Add(this.labelQuestion3, 0, 2);
@@ -125,70 +125,70 @@
             this.tableLayoutPanel19.Size = new System.Drawing.Size(357, 416);
             this.tableLayoutPanel19.TabIndex = 0;
             // 
-            // bunifuRating2
+            // RatingQ1
             // 
-            this.bunifuRating2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating2.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating2.Location = new System.Drawing.Point(180, 2);
-            this.bunifuRating2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating2.Name = "bunifuRating2";
-            this.bunifuRating2.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating2.TabIndex = 0;
-            this.bunifuRating2.Value = 0;
+            this.RatingQ1.BackColor = System.Drawing.Color.Transparent;
+            this.RatingQ1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RatingQ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RatingQ1.ForeColor = System.Drawing.Color.Teal;
+            this.RatingQ1.Location = new System.Drawing.Point(180, 2);
+            this.RatingQ1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RatingQ1.Name = "RatingQ1";
+            this.RatingQ1.Size = new System.Drawing.Size(175, 27);
+            this.RatingQ1.TabIndex = 0;
+            this.RatingQ1.Value = 0;
             // 
-            // bunifuRating3
+            // RatingQ2
             // 
-            this.bunifuRating3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating3.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating3.Location = new System.Drawing.Point(180, 33);
-            this.bunifuRating3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating3.Name = "bunifuRating3";
-            this.bunifuRating3.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating3.TabIndex = 0;
-            this.bunifuRating3.Value = 0;
+            this.RatingQ2.BackColor = System.Drawing.Color.Transparent;
+            this.RatingQ2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RatingQ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RatingQ2.ForeColor = System.Drawing.Color.Teal;
+            this.RatingQ2.Location = new System.Drawing.Point(180, 33);
+            this.RatingQ2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RatingQ2.Name = "RatingQ2";
+            this.RatingQ2.Size = new System.Drawing.Size(175, 27);
+            this.RatingQ2.TabIndex = 0;
+            this.RatingQ2.Value = 0;
             // 
-            // bunifuRating4
+            // RatingQ3
             // 
-            this.bunifuRating4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating4.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating4.Location = new System.Drawing.Point(180, 64);
-            this.bunifuRating4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating4.Name = "bunifuRating4";
-            this.bunifuRating4.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating4.TabIndex = 0;
-            this.bunifuRating4.Value = 0;
+            this.RatingQ3.BackColor = System.Drawing.Color.Transparent;
+            this.RatingQ3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RatingQ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RatingQ3.ForeColor = System.Drawing.Color.Teal;
+            this.RatingQ3.Location = new System.Drawing.Point(180, 64);
+            this.RatingQ3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RatingQ3.Name = "RatingQ3";
+            this.RatingQ3.Size = new System.Drawing.Size(175, 27);
+            this.RatingQ3.TabIndex = 0;
+            this.RatingQ3.Value = 0;
             // 
-            // bunifuRating5
+            // RatingQ4
             // 
-            this.bunifuRating5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating5.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating5.Location = new System.Drawing.Point(180, 95);
-            this.bunifuRating5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating5.Name = "bunifuRating5";
-            this.bunifuRating5.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating5.TabIndex = 0;
-            this.bunifuRating5.Value = 0;
+            this.RatingQ4.BackColor = System.Drawing.Color.Transparent;
+            this.RatingQ4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RatingQ4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RatingQ4.ForeColor = System.Drawing.Color.Teal;
+            this.RatingQ4.Location = new System.Drawing.Point(180, 95);
+            this.RatingQ4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RatingQ4.Name = "RatingQ4";
+            this.RatingQ4.Size = new System.Drawing.Size(175, 27);
+            this.RatingQ4.TabIndex = 0;
+            this.RatingQ4.Value = 0;
             // 
-            // bunifuRating6
+            // RatingQ5
             // 
-            this.bunifuRating6.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRating6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuRating6.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuRating6.ForeColor = System.Drawing.Color.Teal;
-            this.bunifuRating6.Location = new System.Drawing.Point(180, 126);
-            this.bunifuRating6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuRating6.Name = "bunifuRating6";
-            this.bunifuRating6.Size = new System.Drawing.Size(175, 27);
-            this.bunifuRating6.TabIndex = 0;
-            this.bunifuRating6.Value = 0;
+            this.RatingQ5.BackColor = System.Drawing.Color.Transparent;
+            this.RatingQ5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RatingQ5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RatingQ5.ForeColor = System.Drawing.Color.Teal;
+            this.RatingQ5.Location = new System.Drawing.Point(180, 126);
+            this.RatingQ5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.RatingQ5.Name = "RatingQ5";
+            this.RatingQ5.Size = new System.Drawing.Size(175, 27);
+            this.RatingQ5.TabIndex = 0;
+            this.RatingQ5.Value = 0;
             // 
             // labelQuestion1
             // 
@@ -351,7 +351,7 @@
             this.btnNext.OnHovercolor = System.Drawing.Color.Transparent;
             this.btnNext.OnHoverTextColor = System.Drawing.Color.White;
             this.btnNext.selected = false;
-            this.btnNext.Size = new System.Drawing.Size(63, 60);
+            this.btnNext.Size = new System.Drawing.Size(63, 59);
             this.btnNext.TabIndex = 0;
             this.btnNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnNext.Textcolor = System.Drawing.Color.White;
@@ -385,11 +385,11 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
-        private ns1.BunifuRating bunifuRating2;
-        private ns1.BunifuRating bunifuRating3;
-        private ns1.BunifuRating bunifuRating4;
-        private ns1.BunifuRating bunifuRating5;
-        private ns1.BunifuRating bunifuRating6;
+        private ns1.BunifuRating RatingQ1;
+        private ns1.BunifuRating RatingQ2;
+        private ns1.BunifuRating RatingQ3;
+        private ns1.BunifuRating RatingQ4;
+        private ns1.BunifuRating RatingQ5;
         private System.Windows.Forms.Label labelQuestion1;
         private System.Windows.Forms.Label labelQuestion2;
         private System.Windows.Forms.Label labelQuestion3;

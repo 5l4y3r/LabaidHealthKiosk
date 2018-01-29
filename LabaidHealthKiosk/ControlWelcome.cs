@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EntityClasses;
 
 namespace LabaidHealthKiosk
 {
@@ -19,7 +20,7 @@ namespace LabaidHealthKiosk
            
             InitializeComponent();
             Dock = DockStyle.Fill;
-          
+
         }
 
         private void Complainbtn_Click(object sender, EventArgs e)
