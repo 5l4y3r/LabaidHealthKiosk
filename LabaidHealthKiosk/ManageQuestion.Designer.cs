@@ -32,7 +32,6 @@
             this.QuestionGroupComboBox = new System.Windows.Forms.ComboBox();
             this.questionGroupsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.questionGroupDataSet = new LabaidHealthKiosk.QuestionGroupDataSet();
-            this.labaidHealthKioskDataSet = new LabaidHealthKiosk.LabaidHealthKioskDataSet();
             this.label2 = new System.Windows.Forms.Label();
             this.QuestionGridView = new System.Windows.Forms.DataGridView();
             this.quesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,7 +47,6 @@
             this.questionsTableAdapter = new LabaidHealthKiosk.QuestionDataSetTableAdapters.QuestionsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.labaidHealthKioskDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).BeginInit();
@@ -78,8 +76,7 @@
             // 
             // labaidHealthKioskDataSet
             // 
-            this.labaidHealthKioskDataSet.DataSetName = "LabaidHealthKioskDataSet";
-            this.labaidHealthKioskDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+          
             // 
             // label2
             // 
@@ -215,7 +212,6 @@
             this.Load += new System.EventHandler(this.ManageQuestion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionGroupDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.labaidHealthKioskDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.QuestionGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.questionDataSet)).EndInit();
@@ -227,7 +223,7 @@
         #endregion
 
         private System.Windows.Forms.ComboBox QuestionGroupComboBox;
-        private LabaidHealthKioskDataSet labaidHealthKioskDataSet;
+       
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView QuestionGridView;
         private System.Windows.Forms.Button AddQBtn;

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Data;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,13 +13,13 @@ namespace LabaidHealthKiosk
 {
     public partial class ControlComplain : UserControl
     {
-        static int x = 0;
+        static int x;
         static string uName = "";
         public ControlComplain(string s)
         {
             InitializeComponent();
             uName = s;
-
+            x = 0;
         }
 
         private void ComplainSubmitBtn_Click(object sender, EventArgs e)
@@ -42,23 +43,30 @@ namespace LabaidHealthKiosk
             {
                 s2 = "Help Desk";
             }
+
+            if (s2 != "")
+            {
+                BusinessLayer.ComplainClass.SubmitComplain(uName, s2, s);
+
+                DialogResult dialogResult = MessageBox.Show("Do you want to make another complain?", "Complain", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.No)
+                {
+                    this.Controls.Clear();
+                    ControlWelcome cc = new ControlWelcome();
+                    this.Controls.Add(cc);
+                    cc.Show();
+                    cc.Dock = DockStyle.Fill;
+                }
+                else if (dialogResult == DialogResult.Yes)
+                {
+                    textBoxComplain.Text = "";
+                }
+            }
+            else
+            {
+                MessageBox.Show("please select complain section");
+            }
             
-
-            BusinessLayer.ComplainClass.SubmitComplain(uName,s2,s);
-
-            DialogResult dialogResult = MessageBox.Show("Do you want to make another complain?", "Complain", MessageBoxButtons.YesNo);
-            if (dialogResult == DialogResult.No)
-            {
-                this.Controls.Clear();
-                ControlWelcome cc = new ControlWelcome();
-                this.Controls.Add(cc);
-                cc.Show();
-                cc.Dock = DockStyle.Fill;
-            }
-            else if (dialogResult == DialogResult.Yes)
-            {
-                textBoxComplain.Text = "";
-            }
            
 
         }

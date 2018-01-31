@@ -14,10 +14,10 @@ namespace LabaidHealthKiosk
     
     public partial class ControlWelcome : UserControl
     {
-        public static int x = 0;
+        public static int x;
         public ControlWelcome()
         {
-           
+            x = 0;
             InitializeComponent();
             Dock = DockStyle.Fill;
 
@@ -39,7 +39,7 @@ namespace LabaidHealthKiosk
 
         private void FeedbackBtn_Click(object sender, EventArgs e)
         {
-           
+                 x = 2;
                 this.Controls.Clear();
                 ControlUserInfo cc = new ControlUserInfo(x);
                 this.Controls.Add(cc);

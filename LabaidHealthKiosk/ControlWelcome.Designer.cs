@@ -32,16 +32,15 @@
             this.PanelWelcome = new System.Windows.Forms.Panel();
             this.PanelWelcomeMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.FeedbackBtn = new ns1.BunifuThinButton2();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.Complainbtn = new ns1.BunifuThinButton2();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.PanelWelcome.SuspendLayout();
             this.PanelWelcomeMain.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelWelcome
@@ -78,7 +77,6 @@
             this.tableLayoutPanel8.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel8.ColumnCount = 1;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 4);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel10, 0, 2);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 0, 3);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -93,20 +91,21 @@
             this.tableLayoutPanel8.Size = new System.Drawing.Size(467, 528);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
-            // tableLayoutPanel9
+            // tableLayoutPanel10
             // 
-            this.tableLayoutPanel9.ColumnCount = 4;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 345);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 1;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(461, 180);
-            this.tableLayoutPanel9.TabIndex = 4;
+            this.tableLayoutPanel10.ColumnCount = 4;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
+            this.tableLayoutPanel10.Controls.Add(this.FeedbackBtn, 2, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 124);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(461, 101);
+            this.tableLayoutPanel10.TabIndex = 2;
             // 
             // FeedbackBtn
             // 
@@ -160,7 +159,7 @@
             this.Complainbtn.ActiveLineColor = System.Drawing.Color.Orange;
             this.Complainbtn.BackColor = System.Drawing.Color.Transparent;
             this.Complainbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Complainbtn.BackgroundImage")));
-            this.Complainbtn.ButtonText = "Complain Here";
+            this.Complainbtn.ButtonText = "Complaints";
             this.Complainbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Complainbtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Complainbtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -178,22 +177,6 @@
             this.Complainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Complainbtn.Click += new System.EventHandler(this.Complainbtn_Click);
             // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.ColumnCount = 4;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
-            this.tableLayoutPanel10.Controls.Add(this.FeedbackBtn, 2, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 124);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(461, 101);
-            this.tableLayoutPanel10.TabIndex = 2;
-            // 
             // ControlWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,8 +191,8 @@
             this.PanelWelcome.ResumeLayout(false);
             this.PanelWelcomeMain.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel12.ResumeLayout(false);
             this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -219,7 +202,6 @@
         private System.Windows.Forms.Panel PanelWelcome;
         private System.Windows.Forms.TableLayoutPanel PanelWelcomeMain;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private ns1.BunifuThinButton2 Complainbtn;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private ns1.BunifuThinButton2 FeedbackBtn;

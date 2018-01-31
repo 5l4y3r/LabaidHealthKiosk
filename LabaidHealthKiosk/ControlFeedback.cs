@@ -270,24 +270,24 @@ namespace LabaidHealthKiosk
 
             if (value == 1)
             {
-                return "Very Poor";
+                return "Poor";
             }
             else if (value == 2)
             {
 
-                return "Poor";
+                return "Below Average";
             }
             else if (value == 3)
             {
-                return "Good";
+                return "Avarage";
             }
             else if (value == 4)
             {
-                return "Very Good";
+                return "Above Avarage";
             }
             else if (value == 5)
             {
-                return "Excelent";
+                return "Excellent";
             }
             return " ";
         }

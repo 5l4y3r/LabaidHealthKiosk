@@ -127,8 +127,14 @@
   <data name="Customer Comments, English1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Customer Comments, English1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Customer Comments, English2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Customer Comments, English2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Labaid Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Labaid Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookreviewstars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookreviewstars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="labaid2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labaid2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +160,8 @@
   <data name="labaid1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\labaid1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Stethescope" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Stethescope.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="topn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\topn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appledoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appledoc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,10 +184,10 @@
   <data name="Nurse22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nurse22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Customer Comments, English2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Customer Comments, English2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Stethescope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stethescope.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="topn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bookreviewstars1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookreviewstars1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
