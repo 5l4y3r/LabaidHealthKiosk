@@ -33,15 +33,15 @@
             this.PanelWelcomeMain = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.Complainbtn = new ns1.BunifuThinButton2();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.FeedbackBtn = new ns1.BunifuThinButton2();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.Complainbtn = new ns1.BunifuThinButton2();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.PanelWelcome.SuspendLayout();
             this.PanelWelcomeMain.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelWelcome
@@ -108,21 +108,48 @@
             this.tableLayoutPanel9.Size = new System.Drawing.Size(461, 180);
             this.tableLayoutPanel9.TabIndex = 4;
             // 
-            // tableLayoutPanel10
+            // FeedbackBtn
             // 
-            this.tableLayoutPanel10.ColumnCount = 4;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
-            this.tableLayoutPanel10.Controls.Add(this.FeedbackBtn, 2, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 124);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(461, 101);
-            this.tableLayoutPanel10.TabIndex = 2;
+            this.FeedbackBtn.ActiveBorderThickness = 1;
+            this.FeedbackBtn.ActiveCornerRadius = 20;
+            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.Teal;
+            this.FeedbackBtn.ActiveForecolor = System.Drawing.Color.White;
+            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.FeedbackBtn.BackColor = System.Drawing.Color.Transparent;
+            this.FeedbackBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FeedbackBtn.BackgroundImage")));
+            this.FeedbackBtn.ButtonText = "Patient Feedback";
+            this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FeedbackBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FeedbackBtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FeedbackBtn.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.FeedbackBtn.IdleBorderThickness = 1;
+            this.FeedbackBtn.IdleCornerRadius = 20;
+            this.FeedbackBtn.IdleFillColor = System.Drawing.Color.White;
+            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.Teal;
+            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.LightSeaGreen;
+            this.FeedbackBtn.Location = new System.Drawing.Point(119, 6);
+            this.FeedbackBtn.Margin = new System.Windows.Forms.Padding(6);
+            this.FeedbackBtn.Name = "FeedbackBtn";
+            this.FeedbackBtn.Size = new System.Drawing.Size(301, 89);
+            this.FeedbackBtn.TabIndex = 1;
+            this.FeedbackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.FeedbackBtn.Click += new System.EventHandler(this.FeedbackBtn_Click);
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 4;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.7803F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.99242F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
+            this.tableLayoutPanel12.Controls.Add(this.Complainbtn, 2, 0);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 231);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(461, 108);
+            this.tableLayoutPanel12.TabIndex = 6;
             // 
             // Complainbtn
             // 
@@ -151,55 +178,28 @@
             this.Complainbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Complainbtn.Click += new System.EventHandler(this.Complainbtn_Click);
             // 
-            // tableLayoutPanel12
+            // tableLayoutPanel10
             // 
-            this.tableLayoutPanel12.ColumnCount = 4;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.7803F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.99242F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
-            this.tableLayoutPanel12.Controls.Add(this.Complainbtn, 2, 0);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 231);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 1;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(461, 108);
-            this.tableLayoutPanel12.TabIndex = 6;
-            // 
-            // FeedbackBtn
-            // 
-            this.FeedbackBtn.ActiveBorderThickness = 1;
-            this.FeedbackBtn.ActiveCornerRadius = 20;
-            this.FeedbackBtn.ActiveFillColor = System.Drawing.Color.Teal;
-            this.FeedbackBtn.ActiveForecolor = System.Drawing.Color.White;
-            this.FeedbackBtn.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.FeedbackBtn.BackColor = System.Drawing.Color.Transparent;
-            this.FeedbackBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FeedbackBtn.BackgroundImage")));
-            this.FeedbackBtn.ButtonText = "Patient Feedback";
-            this.FeedbackBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FeedbackBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FeedbackBtn.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FeedbackBtn.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.FeedbackBtn.IdleBorderThickness = 1;
-            this.FeedbackBtn.IdleCornerRadius = 20;
-            this.FeedbackBtn.IdleFillColor = System.Drawing.Color.White;
-            this.FeedbackBtn.IdleForecolor = System.Drawing.Color.Teal;
-            this.FeedbackBtn.IdleLineColor = System.Drawing.Color.LightSeaGreen;
-            this.FeedbackBtn.Location = new System.Drawing.Point(119, 6);
-            this.FeedbackBtn.Margin = new System.Windows.Forms.Padding(6);
-            this.FeedbackBtn.Name = "FeedbackBtn";
-            this.FeedbackBtn.Size = new System.Drawing.Size(301, 89);
-            this.FeedbackBtn.TabIndex = 1;
-            this.FeedbackBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.FeedbackBtn.Click += new System.EventHandler(this.FeedbackBtn_Click);
+            this.tableLayoutPanel10.ColumnCount = 4;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.651515F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.9697F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.80303F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.386364F));
+            this.tableLayoutPanel10.Controls.Add(this.FeedbackBtn, 2, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 124);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(461, 101);
+            this.tableLayoutPanel10.TabIndex = 2;
             // 
             // ControlWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
-            this.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.nurse;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::LabaidHealthKiosk.Properties.Resources.nurse11;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.PanelWelcome);
             this.DoubleBuffered = true;
@@ -208,8 +208,8 @@
             this.PanelWelcome.ResumeLayout(false);
             this.PanelWelcomeMain.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel10.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -220,9 +220,9 @@
         private System.Windows.Forms.TableLayoutPanel PanelWelcomeMain;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private ns1.BunifuThinButton2 Complainbtn;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private ns1.BunifuThinButton2 FeedbackBtn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
     }
 }

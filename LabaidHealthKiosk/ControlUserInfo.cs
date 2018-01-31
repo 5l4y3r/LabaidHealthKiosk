@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Org.BouncyCastle.Bcpg.OpenPgp;
 
 namespace LabaidHealthKiosk
 {
@@ -23,11 +24,24 @@ namespace LabaidHealthKiosk
 
         private void AddUserBtn_Click(object sender, EventArgs e)
         {
-            BusinessLayer.UserInfoClass.AddUser(txtName.Text,txtContact.Text,txtRelation.Text);
+            string name, contact, relation;
+            int age;
+            name = txtName.Text;
+            contact = txtContact.Text;
+            if (radioButton1.Checked)
+            {
+                relation = "Patient";
+            }
+            else
+            {
+                relation = "patient's relative";}
+
+            BusinessLayer.UserInfoClass.AddUser(name, contact, relation);
+
             if (p == 1)
             {
                 this.Controls.Clear();
-                ControlComplain cc = new ControlComplain(txtName.text);
+                ControlComplain cc = new ControlComplain(txtName.Text);
                 this.Controls.Add(cc);
                 cc.Show();
                 cc.Dock = DockStyle.Fill;
@@ -35,7 +49,7 @@ namespace LabaidHealthKiosk
             else if (p == 2)
             {
                 this.Controls.Clear();
-                ControlFeedback cc = new ControlFeedback(txtName.text);
+                ControlFeedback cc = new ControlFeedback(txtName.Text);
                 this.Controls.Add(cc);
                 cc.Show();
                 cc.Dock = DockStyle.Fill;
@@ -54,33 +68,7 @@ namespace LabaidHealthKiosk
             }
         }
 
-         private int s1 = 0;
-         private int s2 = 0;
-         //private int s3 = 0;
 
-        private void txtName_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (s1 == 0)
-            {
-                txtName.text = " ";
-                s1 = 1;
-            }
-
-        }
-
-        private void txtContact_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (s2 == 0)
-            {
-                txtContact.text = " ";
-                s2 = 1;
-            }
-
-        }
-
-        private void txtRelation_MouseHover(object sender, EventArgs e)
-        {
-           
-        }
+     
     }
 }

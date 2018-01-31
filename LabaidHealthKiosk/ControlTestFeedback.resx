@@ -117,24 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ComplainSubmitBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOUAAABBCAYAAAAuRGPuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMSSURBVHhe7d1PSJNhHMBxjx49dtOjhG6EhNbYNAPxZody
-        CuKWbgoVnqI6RHYIzDmdc1OsU3/AiylRiREoJppQBxERxcPCYIccY/4ZJnp44/f6pIQhibn3Ib4feGC8
-        77vdvrzP87yDNwsAAAAAAAAAkGm5rZ5sW0d1jTPiG3FFGmdLwp6ErcNtMBiM4w1pRxoqjfrGCwNurz1U
-        laMy+3u2wNXKiz3eZMtwYH10cdr48m3BiK+tGgCOT9qRhsaWPxt33nZvOiINqeKQx69yO5oUXNbrH64f
-        eJBKpFPqJwH8SxvbaeP2m9CaK+qfORu4dkbld5gE6Yr6VobmxnbUdwGcoqnYrFHRf2PF3ubOUxn+Tu6Q
-        BAlklkxrZb2pMjwga0iZsu5dBiCT2sefpR3h6w9Vjnu7rLKpwxoSsMb27o5R+eRWsiBYm29GKVu0siOk
-        zgOwwNNPQ7sXerwhM0p5diJbtQCss/T9q+GINMTMKB1hbzyWjKtTAKwgU9hznbW7ZpRFXXVb8twEgLXk
-        3z9mlPIBgPWIEtAMUQKaIUpAM0QJaIYoAc0QJaAZogQ0Q5SAZogS0AxRApohSkAzRAlohigBzRAloBmi
-        BDRDlIBmiBLQDFECmiFKQDNECWiGKAHNECWgGaIENEOUgGaIEtAMUQKaIUpAM0QJaIYoAc0QJaAZogQ0
-        sx+lvD1W3iILwFr7UZaEPYn42qo6DMAq+1G6ov6ZqdisOgzACrFk3HCEvXEzyvOddfeDEy9/qHMALPB6
-        fsJwRhoGzSjtbe68y33NKdaVgHWaBx+tFbRXXzGjFKW9/mD35MCmOg8gg94tTO5c6m16r3Lck9vqyS7v
-        bZqfiy+rywBkQiKdMkqjvlV7qCpH5XigIFibX9F/MyELTgCnT4J0P7+btHe4y1SGhxU+ri5xRX0r/dOv
-        2PgBTtGHpZkd8w55VJC/yFTWGW3sqXlxLyU7QlIzgJPb2E4bo4vTRstwYL28r/njH6esR5GCZYu2OFS/
-        Lg81GQzGyUZRV92WM+IbsXVU16jMAAAAAAAA8H/KyvoJECErkw1MrskAAAAASUVORK5CYII=
-</value>
-  </data>
+  <metadata name="QGroup.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Questions.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Rating.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

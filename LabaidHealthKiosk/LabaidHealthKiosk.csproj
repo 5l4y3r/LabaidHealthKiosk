@@ -122,17 +122,17 @@
     <Compile Include="ControlFeedback.Designer.cs">
       <DependentUpon>ControlFeedback.cs</DependentUpon>
     </Compile>
-    <Compile Include="ControlFinalFeedback.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ControlFinalFeedback.Designer.cs">
-      <DependentUpon>ControlFinalFeedback.cs</DependentUpon>
-    </Compile>
     <Compile Include="ControlGraph.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ControlGraph.Designer.cs">
       <DependentUpon>ControlGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTestFeedback.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTestFeedback.Designer.cs">
+      <DependentUpon>ControlTestFeedback.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlUserInfo.cs">
       <SubType>UserControl</SubType>
@@ -151,6 +151,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LabaidHealthKioskDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="MailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MailForm.Designer.cs">
+      <DependentUpon>MailForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageQuestion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,12 +168,6 @@
     </Compile>
     <Compile Include="ManageReport.Designer.cs">
       <DependentUpon>ManageReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MaterialsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MaterialsForm.Designer.cs">
-      <DependentUpon>MaterialsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -232,11 +232,11 @@
     <EmbeddedResource Include="ControlFeedback.resx">
       <DependentUpon>ControlFeedback.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ControlFinalFeedback.resx">
-      <DependentUpon>ControlFinalFeedback.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ControlGraph.resx">
       <DependentUpon>ControlGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTestFeedback.resx">
+      <DependentUpon>ControlTestFeedback.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlUserInfo.resx">
       <DependentUpon>ControlUserInfo.cs</DependentUpon>
@@ -244,14 +244,14 @@
     <EmbeddedResource Include="ControlWelcome.resx">
       <DependentUpon>ControlWelcome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MailForm.resx">
+      <DependentUpon>MailForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageQuestion.resx">
       <DependentUpon>ManageQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageReport.resx">
       <DependentUpon>ManageReport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MaterialsForm.resx">
-      <DependentUpon>MaterialsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -302,6 +302,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\topn.jpg" />
+    <None Include="Resources\Labaid Logo.jpg" />
+    <None Include="Resources\Customer Comments, English222.jpg" />
+    <None Include="Resources\Customer Comments, English22.jpg" />
+    <None Include="Resources\Customer Comments, English2.jpg" />
+    <None Include="Resources\Customer Comments, English3.jpg" />
+    <None Include="Resources\Customer Comments, English1.jpg" />
     <None Include="ReportComplainList.xsc">
       <DependentUpon>ReportComplainList.xsd</DependentUpon>
     </None>

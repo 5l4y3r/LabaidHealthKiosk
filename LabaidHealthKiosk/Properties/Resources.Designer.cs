@@ -103,6 +103,66 @@ namespace LabaidHealthKiosk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Customer_Comments__English1 {
+            get {
+                object obj = ResourceManager.GetObject("Customer Comments, English1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer_Comments__English2 {
+            get {
+                object obj = ResourceManager.GetObject("Customer Comments, English2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer_Comments__English22 {
+            get {
+                object obj = ResourceManager.GetObject("Customer Comments, English22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer_Comments__English222 {
+            get {
+                object obj = ResourceManager.GetObject("Customer Comments, English222", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Customer_Comments__English3 {
+            get {
+                object obj = ResourceManager.GetObject("Customer Comments, English3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Labaid_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Labaid Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap labaid1 {
             get {
                 object obj = ResourceManager.GetObject("labaid1", resourceCulture);
@@ -206,6 +266,16 @@ namespace LabaidHealthKiosk.Properties {
         internal static System.Drawing.Bitmap Stethescope {
             get {
                 object obj = ResourceManager.GetObject("Stethescope", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap topn {
+            get {
+                object obj = ResourceManager.GetObject("topn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
